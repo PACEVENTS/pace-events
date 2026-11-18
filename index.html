@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pace Events</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+:root{
+  --cream:#F4F1EC;--cream-mid:#EDE9E3;--cream-dark:#E5E0D8;--white:#FFFFFF;
+  --gold:#C4A454;--gold-light:rgba(196,164,84,0.12);--gold-border:rgba(196,164,84,0.3);
+  --black:#18160F;--charcoal:#3A3530;--grey:#6B6560;--grey-light:#9B9590;
+  --border:rgba(0,0,0,0.09);--border-gold:rgba(196,164,84,0.25);
+  --accent:var(--gold);--accent-soft:var(--gold-light);
+}
+*{box-sizing:border-box;border-radius:0}
+html,body{margin:0;background:var(--cream);color:var(--charcoal);font-family:Inter,system-ui,sans-serif;font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select{font:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;color:var(--black);margin:0}
+.label{display:flex;align-items:center;gap:14px;font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--grey-light);font-weight:500}
+.label::before{content:"";width:40px;height:1px;background:var(--gold);flex:none}
+
+/* Pace bar */
+.pacebar{background:var(--black);color:var(--cream)}
+.pacebar .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+.wordmark{font-size:11px;letter-spacing:3.5px;font-weight:600;text-transform:uppercase;text-decoration:none;color:var(--cream)}
+.wordmark span{color:var(--gold)}
+.pacebar nav a{font-size:10px;letter-spacing:1.8px;text-transform:uppercase;text-decoration:none;color:var(--grey-light)}
+.pacebar nav a:hover{color:var(--cream)}
+
+/* Home */
+.hero{background:var(--black);color:var(--cream);padding:72px 0 64px}
+.hero h1{color:var(--cream);font-size:clamp(38px,6vw,64px);line-height:1.05;margin:18px 0 14px}
+.hero h1 em{color:var(--gold);font-style:italic}
+.hero p{max-width:560px;color:var(--grey-light);margin:0}
+.events-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;margin:48px 0 72px}
+.ev-card{background:var(--white);border:1px solid var(--border-gold);padding:28px 24px 24px;text-decoration:none;display:flex;flex-direction:column;gap:16px;min-height:250px;transition:background .15s}
+.ev-card:hover{background:var(--cream-mid)}
+.ev-logo{height:96px;display:flex;align-items:center;justify-content:center;background:var(--cream);border:1px solid var(--border)}
+.ev-logo img{max-height:72px;max-width:80%}
+.ev-card h3{font-size:22px;line-height:1.15}
+.ev-meta{font-size:12px;color:var(--grey);margin-top:auto}
+.ev-status{font-size:9px;letter-spacing:2px;text-transform:uppercase;font-weight:600;color:var(--gold)}
+
+/* Event header */
+.ev-head{background:var(--white);border-bottom:3px solid var(--accent)}
+.ev-head .wrap{display:flex;align-items:center;gap:24px;padding-top:28px;padding-bottom:28px}
+.ev-head .logo{width:220px;height:84px;display:flex;align-items:center;justify-content:center;flex:none}
+.ev-head .logo img{max-width:100%;max-height:100%}
+.ev-head h1{font-size:clamp(28px,4.5vw,44px);line-height:1.1}
+.ev-head .sub{color:var(--grey);font-size:13px;margin-top:6px}
+.share-btn{margin-left:auto;flex:none;background:var(--black);color:var(--cream);border:0;padding:12px 18px;font-size:10px;font-weight:600;letter-spacing:1.8px;text-transform:uppercase;cursor:pointer}
+.share-btn:hover{background:var(--charcoal)}
+
+/* Toolbar */
+.toolbar{display:grid;grid-template-columns:1fr 260px;gap:12px;margin:32px 0 8px}
+.field{display:flex;align-items:center;gap:10px;background:var(--white);border:1px solid var(--border);padding:0 16px;height:50px}
+.field:focus-within{border-color:var(--accent)}
+.field input,.field select{border:0;outline:0;background:transparent;width:100%;height:100%;color:var(--black)}
+.field svg{flex:none;color:var(--grey-light)}
+.tz{font-size:12px;color:var(--grey);text-align:center;margin:10px 0 0}
+
+/* Agenda */
+.day{margin-top:40px}
+.day-h{display:flex;align-items:baseline;gap:12px;margin-bottom:14px}
+.day-h h2{font-size:26px}
+.day-h .date{color:var(--grey-light);font-size:13px}
+.day-h .count{margin-left:auto;color:var(--grey-light);font-size:12px}
+.sess{display:flex;align-items:center;gap:18px;background:var(--white);border:1px solid var(--border);border-left:3px solid transparent;padding:20px 22px;margin-bottom:10px;text-decoration:none;transition:border-color .15s,background .15s}
+.sess:hover{border-left-color:var(--accent);background:#FFFDF9}
+.sess .body{flex:1;min-width:0}
+.sess .top{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:6px}
+.time{color:var(--grey);font-size:13px;font-variant-numeric:tabular-nums}
+.room{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:500;color:var(--black);background:var(--accent-soft);border:1px solid var(--accent);padding:2px 9px}
+.tag-ready{font-size:9px;letter-spacing:1.6px;text-transform:uppercase;font-weight:600;color:#2E6B3A}
+.tag-closed{font-size:9px;letter-spacing:1.6px;text-transform:uppercase;font-weight:600;color:#8A5A12}
+.sess.plain{cursor:default;background:transparent;border-color:transparent;border-left-color:transparent;padding-top:12px;padding-bottom:12px}
+.sess.plain .title{font-weight:500;color:var(--grey)}
+.kind{font-size:9px;letter-spacing:1.6px;text-transform:uppercase;color:var(--grey-light);font-weight:600}
+.parts-nav{background:var(--white);border:1px solid var(--border);padding:16px 22px;margin:0 0 12px}
+.parts-nav ol{margin:8px 0 0;padding-left:20px}
+.parts-nav li{margin:4px 0}
+.parts-nav a{color:var(--black);text-decoration:none;border-bottom:1px solid var(--accent)}
+.part-h{font-family:"Cormorant Garamond",Georgia,serif;font-size:24px;color:var(--black);padding:26px 0 6px;border-bottom:2px solid var(--accent);margin-bottom:4px}
+.part-h:first-child{padding-top:14px}
+.tag-pending{font-size:9px;letter-spacing:1.6px;text-transform:uppercase;font-weight:600;color:var(--grey-light)}
+.sess .title{font-size:17px;font-weight:600;color:var(--black);line-height:1.35}
+.chev{color:var(--grey-light);flex:none}
+.empty{padding:40px;text-align:center;color:var(--grey);background:var(--white);border:1px solid var(--border);margin-top:32px}
+
+/* Session page */
+.back{display:inline-flex;align-items:center;gap:8px;margin:28px 0 0;font-size:10px;letter-spacing:1.8px;text-transform:uppercase;font-weight:600;text-decoration:none;color:var(--grey)}
+.back:hover{color:var(--black)}
+.s-head{margin:22px 0 26px}
+.s-head h1{font-size:clamp(28px,4.2vw,42px);line-height:1.12;margin:12px 0 0}
+.speakers{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.spk{background:var(--white);border:1px solid var(--border);padding:8px 14px;font-size:13px}
+.spk b{color:var(--black);font-weight:600}
+.spk span{color:var(--grey)}
+.t-tools{display:flex;gap:10px;align-items:center;border-top:1px solid var(--border-gold);border-bottom:1px solid var(--border-gold);padding:12px 0;margin-bottom:8px;flex-wrap:wrap}
+.t-tools .field{height:42px;flex:1;min-width:200px}
+.btn{background:var(--white);border:1px solid var(--black);color:var(--black);padding:0 16px;height:42px;font-size:10px;letter-spacing:1.8px;text-transform:uppercase;font-weight:600;cursor:pointer}
+.btn:hover{background:var(--black);color:var(--cream)}
+.lang{font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:var(--grey);font-weight:600}
+.transcript{background:var(--white);border:1px solid var(--border);padding:12px 32px 28px;margin-bottom:64px}
+.seg{display:grid;grid-template-columns:76px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--border)}
+.seg:last-child{border-bottom:0}
+.seg .ts{font-size:12px;color:var(--grey-light);font-variant-numeric:tabular-nums;padding-top:3px}
+.seg .who{font-size:12px;font-weight:600;color:var(--black);letter-spacing:.3px;margin-bottom:3px}
+.seg p{margin:0;color:var(--charcoal);font-size:15.5px;line-height:1.7}
+.transcript.nots .seg{grid-template-columns:1fr}
+.transcript.nots .ts{display:none}
+mark{background:var(--accent-soft);outline:1px solid var(--accent);color:inherit}
+.pending-box{background:var(--white);border:1px solid var(--border);padding:48px 32px;text-align:center;margin-bottom:64px}
+.pending-box h3{font-size:24px;margin-bottom:8px}
+.pending-box p{color:var(--grey);margin:0}
+.disclaimer{font-size:11px;color:var(--grey-light);text-align:center;margin:-48px 0 56px}
+
+/* Footer */
+footer{border-top:1px solid var(--border-gold);padding:28px 0 40px;text-align:center;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey)}
+footer b{color:var(--black);font-weight:600}
+footer a{color:var(--grey);text-decoration:none}
+
+/* Share modal */
+.modal{position:fixed;inset:0;background:rgba(24,22,15,.72);display:none;align-items:center;justify-content:center;padding:24px;z-index:10}
+.modal.on{display:flex}
+.modal .box{background:var(--cream);max-width:420px;width:100%;padding:32px;text-align:center;border-top:3px solid var(--accent)}
+.modal h3{font-size:26px;margin:12px 0 18px}
+#qr{display:inline-block;background:#fff;padding:16px;border:1px solid var(--border)}
+#qr img,#qr canvas{display:block}
+.linkrow{display:flex;margin-top:18px}
+.linkrow input{flex:1;min-width:0;border:1px solid var(--border);border-right:0;padding:0 12px;height:42px;background:#fff;font-size:12px;color:var(--charcoal)}
+.modal .note{font-size:12px;color:var(--grey);margin:14px 0 0}
+.modal .close{margin-top:18px;background:none;border:0;font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:var(--grey);cursor:pointer}
+.loading{padding:80px 0;text-align:center;color:var(--grey)}
+
+@media (max-width:640px){
+  .toolbar{grid-template-columns:1fr}
+  .ev-head .wrap{flex-wrap:wrap}
+  .ev-head .logo{width:180px;height:64px}
+  .share-btn{margin-left:0;width:100%}
+  .sess{padding:16px}
+  .transcript{padding:4px 18px 18px}
+  .seg{grid-template-columns:1fr;gap:4px}
+}
+</style>
+</head>
+<body>
+<div id="app"><div class="loading">Loading…</div></div>
+
+<div class="modal" id="shareModal" role="dialog" aria-modal="true" aria-labelledby="shareTitle">
+  <div class="box">
+    <div class="label" style="justify-content:center">Share this event</div>
+    <h3 id="shareTitle"></h3>
+    <div id="qr"></div>
+    <div class="linkrow"><input id="shareLink" readonly><button class="btn" id="copyLink">Copy</button></div>
+    <p class="note" id="shareNote"></p>
+    <button class="close" id="closeShare">Close</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  const app = document.getElementById('app');
+  const cache = {};
+  let config = {baseUrl:''}, events = [];
+
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const getJSON = async (path) => {
+    if (cache[path]) return cache[path];
+    const r = await fetch(path, {cache:'no-store'});
+    if (!r.ok) throw new Error(path + ' ' + r.status);
+    return (cache[path] = await r.json());
+  };
+  const fmtDate = (iso, opts) => new Date(iso + 'T12:00:00').toLocaleDateString('en-GB', opts || {weekday:'short', day:'numeric', month:'short'});
+  const dateRange = ev => {
+    if (!ev.startDate) return '';
+    const a = fmtDate(ev.startDate,{day:'numeric',month:'long',year:'numeric'});
+    if (!ev.endDate || ev.endDate === ev.startDate) return a;
+    return fmtDate(ev.startDate,{day:'numeric',month:'long'}) + ' to ' + fmtDate(ev.endDate,{day:'numeric',month:'long',year:'numeric'});
+  };
+  const pinIcon = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s7-7.1 7-12a7 7 0 1 0-14 0c0 4.9 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>';
+  const chev = '<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m9 6 6 6-6 6"/></svg>';
+  const searchIcon = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>';
+
+  function setAccent(color){
+    const c = color || '#C4A454';
+    document.documentElement.style.setProperty('--accent', c);
+    const m = c.match(/^#?([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
+    document.documentElement.style.setProperty('--accent-soft', m ? `rgba(${parseInt(m[1],16)},${parseInt(m[2],16)},${parseInt(m[3],16)},0.10)` : 'var(--gold-light)');
+  }
+
+  const paceBar = () => `<div class="pacebar"><div class="wrap"><a class="wordmark" href="#">Pace <span>Events</span></a><nav><a href="#">All events</a></nav></div></div>`;
+  const footer = () => `<footer><div class="wrap">Powered by <b>Pace Production</b> &nbsp;·&nbsp; <a href="https://pace.rw">pace.rw</a></div></footer>`;
+
+  /* ---------- Home ---------- */
+  function renderHome(){
+    setAccent();
+    document.title = 'Pace Events';
+    const list = [...events].sort((a,b)=> (b.startDate||'').localeCompare(a.startDate||''));
+    app.innerHTML = paceBar() + `
+      <section class="hero"><div class="wrap">
+        <div class="label">Pace Production · Event Archive</div>
+        <h1>Every session,<br><em>on the record.</em></h1>
+        <p>Programmes and session transcripts from the events we produce. Choose an event to browse its programme.</p>
+      </div></section>
+      <div class="wrap">
+        <div class="events-grid">${list.map(ev=>`
+          <a class="ev-card" href="#e-${esc(ev.slug)}">
+            <div class="ev-logo">${ev.logo ? `<img src="${esc(ev.logo)}" alt="${esc(ev.name)} logo">` : `<h3>${esc(ev.short||ev.name)}</h3>`}</div>
+            <div class="ev-status">${esc(statusOf(ev))}</div>
+            <h3>${esc(ev.name)}</h3>
+            <div class="ev-meta">${esc(dateRange(ev))}${ev.venue ? '<br>'+esc(ev.venue) : ''}</div>
+          </a>`).join('') || '<div class="empty">No events yet.</div>'}
+        </div>
+      </div>` + footer();
+    window.scrollTo(0,0);
+  }
+  function statusOf(ev){
+    const today = new Date().toISOString().slice(0,10);
+    if (ev.startDate && today < ev.startDate) return 'Upcoming';
+    if (ev.endDate && today > ev.endDate) return 'Past event';
+    return 'Live now';
+  }
+
+  /* ---------- Event agenda ---------- */
+  let agendaState = {q:'', room:''};
+  async function renderEvent(slug){
+    const ev = events.find(e=>e.slug===slug);
+    if (!ev) return notFound();
+    setAccent(ev.accent);
+    document.title = ev.name;
+    app.innerHTML = paceBar() + '<div class="loading">Loading programme…</div>';
+    let prog;
+    try { prog = await getJSON(`data/${slug}/program.json`); } catch(e){ return notFound('This programme could not be loaded.'); }
+    if (currentRoute().view !== 'event' || currentRoute().slug !== slug) return;
+    const rooms = [...new Set(prog.sessions.map(s=>s.room).filter(Boolean))];
+    app.innerHTML = paceBar() + `
+      <header class="ev-head"><div class="wrap">
+        ${ev.logo ? `<div class="logo"><img src="${esc(ev.logo)}" alt="${esc(ev.name)} logo"></div>` : ''}
+        <div><h1>${esc(ev.name)}</h1><div class="sub">${esc(dateRange(ev))}${ev.venue ? ' · '+esc(ev.venue) : ''}</div></div>
+        <button class="share-btn" id="shareBtn">Share · QR code</button>
+      </div></header>
+      <div class="wrap">
+        <div class="toolbar">
+          <label class="field">${searchIcon}<input id="q" type="search" placeholder="Search sessions or speakers" value="${esc(agendaState.q)}" aria-label="Search sessions"></label>
+          <label class="field">${pinIcon.replace('11','16').replace('11','16')}<select id="room" aria-label="Filter by room"><option value="">All rooms</option>${rooms.map(r=>`<option ${r===agendaState.room?'selected':''}>${esc(r)}</option>`).join('')}</select></label>
+        </div>
+        <p class="tz">All times in ${esc(prog.timezoneLabel || 'local time')}</p>
+        <div id="agenda"></div>
+      </div>` + footer();
+    const draw = () => drawAgenda(ev, prog);
+    document.getElementById('q').addEventListener('input', e=>{agendaState.q=e.target.value; draw();});
+    document.getElementById('room').addEventListener('change', e=>{agendaState.room=e.target.value; draw();});
+    document.getElementById('shareBtn').addEventListener('click', ()=>openShare(ev));
+    draw();
+  }
+  function drawAgenda(ev, prog){
+    const q = agendaState.q.trim().toLowerCase();
+    const match = s => (!agendaState.room || s.room===agendaState.room) &&
+      (!q || [s.title, s.room, ...(s.speakers||[]).map(p=>p.name+' '+(p.role||''))].join(' ').toLowerCase().includes(q));
+    const days = prog.days.map((d,i)=>{
+      const items = prog.sessions.filter(s=>s.day===d.date && match(s)).sort((a,b)=>(a.sort||a.start).localeCompare(b.sort||b.start));
+      if (!items.length) return '';
+      return `<section class="day"><div class="day-h"><h2>${esc(d.label || ("Day "+(i+1)))}</h2><span class="date">${esc(fmtDate(d.date))}</span><span class="count">${items.length} session${items.length>1?'s':''}</span></div>
+        ${items.map(s=>{
+          const plain = !s.transcript && !s.closed && !s.kind && !(s.speakers||[]).length;
+          const inner = `<div class="body"><div class="top"><span class="time">${esc(timeOf(s))}</span>${s.room?`<span class="room">${pinIcon}${esc(s.room)}</span>`:''}${s.transcript?'<span class="tag-ready">● Transcript</span>':''}${s.closed?'<span class="tag-closed">Closed session</span>':''}</div>
+          <div class="title">${esc(s.title)}</div></div>`;
+          return plain ? `<div class="sess plain">${inner}</div>` : `<a class="sess" href="#s-${esc(ev.slug)}--${esc(s.id)}">${inner}${chev}</a>`;
+        }).join('')}
+      </section>`;
+    }).join('');
+    document.getElementById('agenda').innerHTML = days || '<div class="empty">No sessions match your search.</div>';
+  }
+
+  const timeOf = s => s.timeLabel ? (s.timeLabel==='All day' ? 'All day' : s.timeLabel) : `${s.start} to ${s.end}`;
+
+  /* ---------- Session / transcript ---------- */
+  async function renderSession(slug, id){
+    const ev = events.find(e=>e.slug===slug);
+    if (!ev) return notFound();
+    setAccent(ev.accent);
+    app.innerHTML = paceBar() + '<div class="loading">Loading session…</div>';
+    let prog; try { prog = await getJSON(`data/${slug}/program.json`); } catch(e){ return notFound(); }
+    const s = prog.sessions.find(x=>x.id===id);
+    if (!s) return notFound('Session not found.');
+    document.title = s.title + ' · ' + ev.name;
+    let tr = null;
+    if (s.transcript) { try { tr = await getJSON(`data/${slug}/transcripts/${id}.json`); } catch(e){ tr = null; } }
+    const r = currentRoute(); if (r.view!=='session' || r.id!==id) return;
+    const dayIdx = prog.days.findIndex(d=>d.date===s.day);
+    app.innerHTML = paceBar() + `
+      <header class="ev-head"><div class="wrap">
+        ${ev.logo ? `<div class="logo"><img src="${esc(ev.logo)}" alt="${esc(ev.name)} logo"></div>` : ''}
+        <div><h1 style="font-size:clamp(22px,3vw,30px)">${esc(ev.name)}</h1><div class="sub">${esc(dateRange(ev))}${ev.venue ? ' · '+esc(ev.venue) : ''}</div></div>
+      </div></header>
+      <div class="wrap">
+        <a class="back" href="#e-${esc(slug)}">← Back to programme</a>
+        <div class="s-head">
+          <div class="top" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+            <span class="time">${esc((prog.days[dayIdx]||{}).label || ("Day "+(dayIdx+1)))} · ${esc(fmtDate(s.day))} · ${esc(timeOf(s))}</span>${s.kind?`<span class="kind">${esc(s.kind)}</span>`:''}
+            ${s.room?`<span class="room">${pinIcon}${esc(s.room)}</span>`:''}
+          </div>
+          <h1>${esc(s.title)}</h1>
+          ${(s.speakers||[]).length ? `<div class="speakers">${s.speakers.map(p=>`<div class="spk"><b>${esc(p.name)}</b>${p.role?` <span>· ${esc(p.role)}</span>`:''}</div>`).join('')}</div>` : ''}
+        </div>
+        ${tr ? transcriptBlock(tr) : s.closed ? `<div class="pending-box"><div class="label" style="justify-content:center">Closed session</div><h3>Held in private</h3><p>This was a closed-door session. No public transcript is available.</p></div>` : `<div class="pending-box"><div class="label" style="justify-content:center">Transcript</div><h3>Coming soon</h3><p>The transcript for this session will be published here shortly after it ends.</p></div>`}
+      </div>` + footer();
+    window.scrollTo(0,0);
+    if (tr) wireTranscript(tr);
+  }
+  function transcriptBlock(tr){
+    return `<div class="t-tools">
+        <span class="label" style="margin-right:6px">Transcript</span>
+        <span class="lang">${esc(tr.languageLabel || tr.language || '')}</span>
+        <label class="field">${searchIcon}<input id="tq" type="search" placeholder="Search this transcript" aria-label="Search this transcript"></label>
+        <button class="btn" id="copyT">Copy text</button>
+      </div>
+      <div class="parts-nav" id="pnav" style="display:none"></div>
+      <div class="transcript" id="tbody"></div>
+      <p class="disclaimer">Transcribed from the session recording and reviewed by the Pace Production team. Minor errors may remain.</p>`;
+  }
+  function wireTranscript(tr){
+    const parts = tr.parts || [{title:'', segments: tr.segments||[]}];
+    const body = document.getElementById('tbody');
+    const nav = document.getElementById('pnav');
+    const titled = parts.length > 1 || parts.some(p=>p.title);
+    if (nav && parts.length > 1) {
+      nav.innerHTML = `<div class="label">In this session</div><ol>${parts.map((p,i)=>`<li><a href="#" data-part="${i}">${esc(p.title||('Part '+(i+1)))}</a></li>`).join('')}</ol>`;
+      nav.style.display='block';
+      nav.addEventListener('click', e=>{ const a=e.target.closest('[data-part]'); if(!a) return; e.preventDefault();
+        const h=document.getElementById('part-'+a.dataset.part); if(h) h.scrollIntoView({behavior:'smooth',block:'start'}); });
+    }
+    body.classList.toggle('nots', !parts.some(p=>p.segments.some(g=>g.time)));
+    const draw = (q) => {
+      const rx = q ? new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi') : null;
+      let html = '', hits = 0;
+      parts.forEach((p,i)=>{
+        const segs = p.segments.filter(g => !q || (g.text+' '+(g.speaker||'')).toLowerCase().includes(q.toLowerCase()));
+        if (q && !segs.length) return;
+        hits += segs.length;
+        if (titled) html += `<div class="part-h" id="part-${i}">${esc(p.title||('Part '+(i+1)))}</div>`;
+        let prev = null;
+        html += segs.map(g=>{
+          let t = esc(g.text); if (rx) t = t.replace(rx, m=>`<mark>${m}</mark>`);
+          const who = (g.speaker && (g.speaker!==prev || q)) ? `<div class="who">${esc(g.speaker)}</div>` : '';
+          prev = g.speaker;
+          return `<div class="seg"><div class="ts">${esc(g.time||'')}</div><div>${who}<p>${t}</p></div></div>`;
+        }).join('');
+      });
+      body.innerHTML = (q && !hits) ? '<div class="empty" style="border:0">No matches in this transcript.</div>' : html;
+    };
+    draw('');
+    let tmr; document.getElementById('tq').addEventListener('input', e=>{ clearTimeout(tmr); const v=e.target.value.trim(); tmr=setTimeout(()=>draw(v),150); });
+    document.getElementById('copyT').addEventListener('click', async e=>{
+      const txt = parts.map(p=>(p.title? '== '+p.title+' ==\n\n' : '') + p.segments.map(g=>[g.time?'['+g.time+']':'', g.speaker? g.speaker+':':'', g.text].filter(Boolean).join(' ')).join('\n\n')).join('\n\n');
+      try { await navigator.clipboard.writeText(txt); e.target.textContent='Copied'; } catch(_) { e.target.textContent='Copy blocked'; }
+      setTimeout(()=>e.target.textContent='Copy text', 1800);
+    });
+  }
+
+  /* ---------- Share ---------- */
+  const modal = document.getElementById('shareModal');
+  function openShare(ev){
+    // On a real web host, the page's own address is the share link; config.baseUrl is only a fallback.
+    const here = (location.protocol.startsWith('http') && !/claude(usercontent)?\.(ai|com)$/.test(location.hostname)) ? location.origin + location.pathname : '';
+    const base = (here || config.baseUrl || '').split('#')[0];
+    const link = base ? base + '#e-' + ev.slug : '';
+    document.getElementById('shareTitle').textContent = ev.name;
+    const qr = document.getElementById('qr'); qr.innerHTML='';
+    document.getElementById('shareLink').value = link || 'Link available once the app is shared publicly';
+    if (link && window.QRCode) new QRCode(qr, {text:link, width:220, height:220, colorDark:'#18160F', colorLight:'#ffffff', correctLevel:QRCode.CorrectLevel.M});
+    document.getElementById('shareNote').textContent = link ? 'Scan to open the programme. Put this code on screens, badges or the printed agenda.' : '';
+    modal.classList.add('on');
+  }
+  document.getElementById('closeShare').onclick = ()=>modal.classList.remove('on');
+  modal.addEventListener('click', e=>{ if(e.target===modal) modal.classList.remove('on'); });
+  document.getElementById('copyLink').onclick = async (e)=>{
+    try { await navigator.clipboard.writeText(document.getElementById('shareLink').value); e.target.textContent='Copied'; } catch(_) { e.target.textContent='Select & copy'; }
+    setTimeout(()=>e.target.textContent='Copy',1800);
+  };
+
+  /* ---------- Routing (#e-slug, #s-slug--id) ---------- */
+  function currentRoute(){
+    const h = decodeURIComponent(location.hash.slice(1));
+    if (h.startsWith('e-')) return {view:'event', slug:h.slice(2)};
+    if (h.startsWith('s-') && h.includes('--')) { const [slug,id] = h.slice(2).split('--'); return {view:'session', slug, id}; }
+    return {view:'home'};
+  }
+  function notFound(msg){ app.innerHTML = paceBar() + `<div class="wrap"><div class="empty">${esc(msg||'Event not found.')} <a href="#">See all events</a></div></div>` + footer(); }
+  function route(){
+    modal.classList.remove('on');
+    const r = currentRoute();
+    if (r.view==='event') { agendaState = {q:'',room:''}; return renderEvent(r.slug); }
+    if (r.view==='session') return renderSession(r.slug, r.id);
+    renderHome();
+  }
+
+  (async function init(){
+    try { config = await getJSON('data/config.json'); } catch(_){}
+    try { events = (await getJSON('data/events.json')).events || []; }
+    catch(e){ app.innerHTML = '<div class="wrap"><div class="empty">The event list could not be loaded.</div></div>'; return; }
+    window.addEventListener('hashchange', route);
+    route();
+  })();
+})();
+</script>
+</body>
+</html>

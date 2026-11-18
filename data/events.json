@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "slug": "neisa-2026",
+      "name": "Nuclear Energy Innovation Summit on Africa 2026",
+      "short": "NEISA 2026",
+      "startDate": "2026-05-18",
+      "endDate": "2026-05-21",
+      "venue": "Kigali Convention Centre, Kigali",
+      "logo": "assets/neisa-2026-logo.png",
+      "accent": "#1F7BBF"
+    }
+  ]
+}

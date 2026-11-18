@@ -1,0 +1,856 @@
+{
+  "timezoneLabel": "Kigali time (GMT +02:00)",
+  "days": [
+    {
+      "date": "2026-05-18",
+      "label": "Pre-summit"
+    },
+    {
+      "date": "2026-05-19",
+      "label": "Day 1"
+    },
+    {
+      "date": "2026-05-20",
+      "label": "Day 2"
+    },
+    {
+      "date": "2026-05-21",
+      "label": "Day 3 · NextGen"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "d0-registration",
+      "day": "2026-05-18",
+      "start": "08:00",
+      "end": "18:00",
+      "room": "Foyer 1A",
+      "title": "Registration & Badge Collection",
+      "kind": "",
+      "closed": false,
+      "sort": "07:00",
+      "timeLabel": "All day",
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d0-prep-ministerial",
+      "day": "2026-05-18",
+      "start": "14:00",
+      "end": "16:30",
+      "room": "Room AD12",
+      "title": "Technical Preparatory Sessions for Ministerial Compact Roundtables",
+      "kind": "Working session",
+      "closed": true,
+      "sort": "14:00",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d0-prep-regulators",
+      "day": "2026-05-18",
+      "start": "14:00",
+      "end": "16:30",
+      "room": "Room AD12",
+      "title": "Technical Preparatory Sessions for Regulators Program",
+      "kind": "Working session",
+      "closed": true,
+      "sort": "14:00",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d0-cocktail",
+      "day": "2026-05-18",
+      "start": "18:00",
+      "end": "20:00",
+      "room": "",
+      "title": "Welcome to Kigali Cocktail Reception",
+      "kind": "By invitation",
+      "closed": true,
+      "sort": "18:00",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-arrivals",
+      "day": "2026-05-19",
+      "start": "09:30",
+      "end": "10:30",
+      "room": "",
+      "title": "Arrivals & Networking",
+      "kind": "",
+      "closed": false,
+      "sort": "09:30",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-opening",
+      "day": "2026-05-19",
+      "start": "11:00",
+      "end": "13:15",
+      "room": "Main Auditorium",
+      "title": "Opening Ceremony: Remarks & Keynotes",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "11:00a",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "H.E. Paul Kagame",
+          "role": "President of the Republic of Rwanda"
+        },
+        {
+          "name": "H.E. Dr. Samia Suluhu Hassan",
+          "role": "President of the United Republic of Tanzania"
+        },
+        {
+          "name": "H.E. Faure Essozimna Gnassingbé",
+          "role": "President of the Council of Togo"
+        },
+        {
+          "name": "Rt. Hon. Ali Mahamane Zeine",
+          "role": "Prime Minister of Niger"
+        },
+        {
+          "name": "Rafael Mariano Grossi",
+          "role": "Director General, IAEA"
+        },
+        {
+          "name": "Dr. Lassina Zerbo",
+          "role": "Energy Advisor to the President of Rwanda; Chairman, RAEB"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d1-leadership",
+      "day": "2026-05-19",
+      "start": "11:00",
+      "end": "13:15",
+      "room": "Main Auditorium",
+      "title": "High-Level Leadership Dialogue: Global Leadership Perspectives on Financing Africa's Nuclear Energy Future",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "11:00b",
+      "timeLabel": "Within the opening block, 11:00 to 13:15",
+      "speakers": [
+        {
+          "name": "Daniel B. Poneman",
+          "role": "Senior Fellow, Council on Foreign Relations (Moderator)"
+        },
+        {
+          "name": "Dr. Sama Bilbao y León",
+          "role": "Director General, World Nuclear Association"
+        },
+        {
+          "name": "William D. Magwood, IV",
+          "role": "Director General, OECD Nuclear Energy Agency"
+        },
+        {
+          "name": "Sylvie Bermann",
+          "role": "Ambassador of France; President, World Nuclear Exhibition"
+        },
+        {
+          "name": "Serge Ekué",
+          "role": "President, West African Development Bank"
+        },
+        {
+          "name": "Renee Sonderman",
+          "role": "Acting PDAS, Bureau of Arms Control and Nonproliferation, U.S. Department of State"
+        },
+        {
+          "name": "Benard Paul Mono",
+          "role": "Acting Director General, East African Development Bank"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d1-lunch",
+      "day": "2026-05-19",
+      "start": "13:15",
+      "end": "14:15",
+      "room": "",
+      "title": "Lunch",
+      "kind": "",
+      "closed": false,
+      "sort": "13:15",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-investment",
+      "day": "2026-05-19",
+      "start": "14:30",
+      "end": "15:30",
+      "room": "Main Auditorium",
+      "title": "Plenary: Africa's Nuclear Energy Investment Case",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "14:30",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr. Donald Kaberuka",
+          "role": "Managing Partner, Southbridge"
+        },
+        {
+          "name": "Liu Jing",
+          "role": "Vice Chairman, China Atomic Energy Authority"
+        },
+        {
+          "name": "Hon. Kandeh Yumkella",
+          "role": "Chairman, PI-CREF"
+        },
+        {
+          "name": "Erik Fernstrom",
+          "role": "Regional Director for Infrastructure, Eastern and Southern Africa, World Bank"
+        },
+        {
+          "name": "Lucy Chege",
+          "role": "Associate Executive, Project & Infrastructure Finance, TDB Group"
+        },
+        {
+          "name": "Benard Paul Mono",
+          "role": "Acting Director General, East African Development Bank"
+        },
+        {
+          "name": "Kevin Kariuki",
+          "role": "Vice President, Power, Energy, Climate & Green Growth, AfDB"
+        },
+        {
+          "name": "Dr. Yohannes G. Hailu",
+          "role": "Economic Affairs Officer, UNECA (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d1-compact-financing",
+      "day": "2026-05-19",
+      "start": "15:45",
+      "end": "17:15",
+      "room": "Room AD12",
+      "title": "Ministerial Compact Roundtable: Financing Africa's Nuclear Future",
+      "kind": "Closed · By invitation",
+      "closed": true,
+      "sort": "15:45",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-b2b",
+      "day": "2026-05-19",
+      "start": "15:45",
+      "end": "17:15",
+      "room": "B2B Lounge",
+      "title": "B2B Meetings & Bi-laterals",
+      "kind": "",
+      "closed": false,
+      "sort": "15:45",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-public-trust",
+      "day": "2026-05-19",
+      "start": "15:45",
+      "end": "17:15",
+      "room": "Main Auditorium",
+      "title": "Public Trust: From Social Acceptance to Project Delivery",
+      "kind": "Thematic",
+      "closed": false,
+      "sort": "15:45",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "James Orengo",
+          "role": "Governor, Siaya County, Kenya"
+        },
+        {
+          "name": "Loyiso Tyabashe",
+          "role": "Group CEO, Necsa"
+        },
+        {
+          "name": "Evariste Rugigana",
+          "role": "Director General, RURA"
+        },
+        {
+          "name": "Dr. Tamara Yankovich",
+          "role": "Deputy Head, Human Aspects of Nuclear Safety, OECD NEA"
+        },
+        {
+          "name": "Lars Van Dassen",
+          "role": "Executive Director, World Institute of Nuclear Security"
+        },
+        {
+          "name": "Amb. Laura Holgate",
+          "role": "President, LSHH International Advisors"
+        },
+        {
+          "name": "Sarah G.J. Lennon",
+          "role": "International Nuclear Policy Advisor, NANO Nuclear Energy"
+        },
+        {
+          "name": "Roy Payne",
+          "role": "Executive Director, GDFWatch"
+        },
+        {
+          "name": "Nozipho Tshabalala",
+          "role": "CEO, The Conversation Strategists (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d2-mining-ai",
+      "day": "2026-05-20",
+      "start": "09:00",
+      "end": "10:15",
+      "room": "Main Auditorium",
+      "title": "Plenary: Mining, AI, Manufacturing: Anchoring the Case for Nuclear Energy Deployment",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "09:00",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Hon. Paula Ingabire",
+          "role": "Minister of ICT & Innovation, Rwanda"
+        },
+        {
+          "name": "Alice Uwase",
+          "role": "CEO, Rwanda Mines, Petroleum and Gas Board"
+        },
+        {
+          "name": "Amath Pathé Sene",
+          "role": "Managing Director, AFSF Secretariat"
+        },
+        {
+          "name": "Amandeep Singh Gill",
+          "role": "UN Secretary-General's Envoy on Technology"
+        },
+        {
+          "name": "Aristide Ali Boyarm",
+          "role": "CEO, DEVCHAMPIO"
+        },
+        {
+          "name": "Ma Wenjun",
+          "role": "China National Nuclear Corporation"
+        },
+        {
+          "name": "Magali Koyo",
+          "role": "Director, Data Center Reliability, Microsoft (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d2-compact-cooperation",
+      "day": "2026-05-20",
+      "start": "10:30",
+      "end": "12:30",
+      "room": "Room AD12",
+      "title": "Ministerial Compact Roundtable: Advancing Nuclear Ambitions through Cooperation",
+      "kind": "Closed · By invitation",
+      "closed": true,
+      "sort": "10:30",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-legal",
+      "day": "2026-05-20",
+      "start": "10:30",
+      "end": "11:30",
+      "room": "Room MH1",
+      "title": "Legal, Advisory & Transactional Frameworks for Nuclear Energy Projects",
+      "kind": "Thematic",
+      "closed": false,
+      "sort": "10:30",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Jeffrey Merrifield",
+          "role": "Partner, Pillsbury Winthrop Shaw Pittman LLP"
+        },
+        {
+          "name": "Christelle Drillat",
+          "role": "Legislative Assistance Programme Lead, IAEA"
+        },
+        {
+          "name": "Hend Elkharboutl",
+          "role": "Senior Associate, GNE Global Nuclear Energy Advisory"
+        },
+        {
+          "name": "Dimono Danielle",
+          "role": "Senior Nuclear Projects Buyer"
+        },
+        {
+          "name": "Dr. Ariel Levite",
+          "role": "Senior Fellow, Carnegie Endowment for International Peace"
+        },
+        {
+          "name": "Amb. Justin Friedman",
+          "role": "Founder & Senior Advisor, Friedman Global Strategies"
+        },
+        {
+          "name": "Dr. Francesca Giovannini",
+          "role": "Executive Director, Belfer Center, Harvard Kennedy School (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d2-tech-showcase",
+      "day": "2026-05-20",
+      "start": "11:30",
+      "end": "12:30",
+      "room": "Room MH1",
+      "title": "Technology Showcase",
+      "kind": "Showcase",
+      "closed": false,
+      "sort": "11:30",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Prof. Eugene Shwageraus",
+          "role": "CTO, Cambridge AtomWorks"
+        },
+        {
+          "name": "Taechul Park",
+          "role": "Director, Project Management, i-SMR"
+        },
+        {
+          "name": "Olga Martianova",
+          "role": "Deputy DG, Marketing and Strategy, ROSATOM Energy Projects"
+        },
+        {
+          "name": "Fuqi Wei",
+          "role": "Vice President, CNNC Overseas"
+        },
+        {
+          "name": "William Bizollon",
+          "role": "Business Development Engineer, Holtec International"
+        },
+        {
+          "name": "Alejandro Ibañez",
+          "role": "Project Manager, INVAP"
+        },
+        {
+          "name": "Dr. Kwisanga Christian",
+          "role": "Senior Lecturer, University of Rwanda (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d2-b2b",
+      "day": "2026-05-20",
+      "start": "11:30",
+      "end": "12:30",
+      "room": "B2B Lounge",
+      "title": "B2B Meetings & Bi-laterals",
+      "kind": "",
+      "closed": false,
+      "sort": "11:30",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-lunch",
+      "day": "2026-05-20",
+      "start": "12:30",
+      "end": "13:30",
+      "room": "",
+      "title": "Lunch",
+      "kind": "",
+      "closed": false,
+      "sort": "12:30",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-smr",
+      "day": "2026-05-20",
+      "start": "13:30",
+      "end": "15:00",
+      "room": "Main Auditorium",
+      "title": "Plenary: SMR Deployment Readiness",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "13:30",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr. Sama Bilbao y León",
+          "role": "Director General, World Nuclear Association"
+        },
+        {
+          "name": "Fuqi Wei",
+          "role": "Vice President, CNNC Overseas"
+        },
+        {
+          "name": "Rafael Marin",
+          "role": "Director, Holtec Europe"
+        },
+        {
+          "name": "Irfan Hasan",
+          "role": "Managing Director, Bertin Technologies; GIFEN Pilot Club Africa"
+        },
+        {
+          "name": "Nana Menya Ayensu",
+          "role": "CEO, Zorro Energy Solutions"
+        },
+        {
+          "name": "Dr. Fidele Ndahayo",
+          "role": "CEO, RAEB"
+        },
+        {
+          "name": "Alexey Semenov",
+          "role": "Head of Business Development, ROSATOM Central and Southern Africa"
+        },
+        {
+          "name": "Wei Huang",
+          "role": "Director, Planning, Information and Knowledge Management, IAEA (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d2-regulators",
+      "day": "2026-05-20",
+      "start": "15:15",
+      "end": "16:30",
+      "room": "Room AD12",
+      "title": "Regulators Roundtable: Regulatory Readiness for Nuclear Deployment in Africa",
+      "kind": "Closed · By invitation",
+      "closed": true,
+      "sort": "15:15",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-dealroom",
+      "day": "2026-05-20",
+      "start": "15:15",
+      "end": "16:30",
+      "room": "Main Auditorium",
+      "title": "Finance Clinic: Inside the Dealroom: Structuring Capital for Nuclear Energy Projects",
+      "kind": "Thematic",
+      "closed": false,
+      "sort": "15:15",
+      "timeLabel": "Afternoon, time not published in the programme",
+      "speakers": [
+        {
+          "name": "Jerome Benoit Friler",
+          "role": "CEO, SATAREM America Inc"
+        },
+        {
+          "name": "Hosea Kili",
+          "role": "Group Managing Trustee, Financial Services, CPF"
+        },
+        {
+          "name": "Denis Charles Kouassi",
+          "role": "Director General, CNPS"
+        },
+        {
+          "name": "Meshach Bandawe",
+          "role": "Secretary General, Africa Social Security Association"
+        },
+        {
+          "name": "Erik Fernstrom",
+          "role": "Regional Director, World Bank"
+        },
+        {
+          "name": "Kevin Kariuki",
+          "role": "Vice President, AfDB"
+        },
+        {
+          "name": "Jean-Marie Kananura",
+          "role": "Chief Investment Officer, KIFC"
+        },
+        {
+          "name": "Nana Menya Ayensu",
+          "role": "CEO, Zorro Energy Solutions"
+        },
+        {
+          "name": "Vincent C. Zabielski",
+          "role": "Partner, Pillsbury Winthrop Shaw Pittman"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d2-regional",
+      "day": "2026-05-20",
+      "start": "16:30",
+      "end": "17:30",
+      "room": "Main Auditorium",
+      "title": "Plenary: Regional Cooperation & Deployment at Scale",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "16:30",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Gaspard Liyoko Mboyo",
+          "role": "Chairperson, AFCONE"
+        },
+        {
+          "name": "Eng. Khadija Bendam",
+          "role": "President, International Nuclear Society Council"
+        },
+        {
+          "name": "Eng. James Karari Wahogo",
+          "role": "Secretary General, Eastern Africa Power Pool"
+        },
+        {
+          "name": "Paul Koffi Koffi",
+          "role": "Commissioner, West African Economic and Monetary Union"
+        },
+        {
+          "name": "Hon. Deogratius John Ndejembi",
+          "role": "Minister for Energy, Tanzania"
+        },
+        {
+          "name": "Dr. Jimmy Gasore",
+          "role": "Minister of Infrastructure, Rwanda"
+        },
+        {
+          "name": "Elsie Pule",
+          "role": "Head Coordinator, BRICS Nuclear Platform (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d3-human-capacity",
+      "day": "2026-05-21",
+      "start": "09:15",
+      "end": "10:15",
+      "room": "Main Auditorium",
+      "title": "Human Capacity Development: Building Africa's Nuclear Workforce",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "09:15",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Didier Acouétey",
+          "role": "Founder, Africsearch"
+        },
+        {
+          "name": "Gashaw Gebeyehu Wolde",
+          "role": "Acting Director, TCAF, IAEA"
+        },
+        {
+          "name": "Prof. Samuel Dampare",
+          "role": "Director General, Ghana Atomic Energy Commission"
+        },
+        {
+          "name": "Lisa Marshall",
+          "role": "North Carolina State University; Immediate Past President, American Nuclear Society"
+        },
+        {
+          "name": "Alexander Kormishin",
+          "role": "Director, Center for International Partnerships, Rosatom Corporate Academy"
+        },
+        {
+          "name": "Dr. Sola Talabi",
+          "role": "President, Pittsburgh Technical"
+        },
+        {
+          "name": "Dr. Tracey-Ann Wellington",
+          "role": "Deputy Head, Office of Policy and Coordination, OECD NEA (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d3-philanthropy",
+      "day": "2026-05-21",
+      "start": "10:15",
+      "end": "10:45",
+      "room": "Main Auditorium",
+      "title": "Catalysing Public Interest and Early Stage Capacity for Nuclear Energy in Africa | Philanthropic Role in the Nuclear Space",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "10:15",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": true
+    },
+    {
+      "id": "d3-youth-t1",
+      "day": "2026-05-21",
+      "start": "10:50",
+      "end": "13:35",
+      "room": "Main Auditorium",
+      "title": "Youth in Nuclear, Track 1: Understanding the Nuclear Ecosystem: What Does It Mean to Work in Nuclear Energy?",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "10:50",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr. Francesca Giovannini",
+          "role": "Belfer Center"
+        },
+        {
+          "name": "Mervyn Fischer",
+          "role": "CEO, Allweld Nuclear & Industrial"
+        },
+        {
+          "name": "Karen Hallberg",
+          "role": "Secretary General, Pugwash Conferences"
+        },
+        {
+          "name": "Amanda Mbhele",
+          "role": "Board Advisor, WiN Global YG"
+        },
+        {
+          "name": "Johnson Lorlornyo Abusah",
+          "role": "President, AYGN Ghana"
+        },
+        {
+          "name": "Bianca Carpinelli",
+          "role": "Coordination Officer, IAEA"
+        },
+        {
+          "name": "Dr. Tracey-Ann Wellington",
+          "role": "OECD NEA"
+        },
+        {
+          "name": "Ange Fanny Uwera",
+          "role": "President, Nice Club Rwanda"
+        },
+        {
+          "name": "Queenter Osoro",
+          "role": "WiN YG (Moderator)"
+        },
+        {
+          "name": "Alice Kagina",
+          "role": "Public Awareness Analyst, RAEB (Moderator)"
+        },
+        {
+          "name": "Alexis Amachree",
+          "role": "Project Manager, EDF (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d3-youth-t2",
+      "day": "2026-05-21",
+      "start": "10:50",
+      "end": "13:35",
+      "room": "Room MH1",
+      "title": "Youth in Nuclear, Track 2: Hands-On Policy Simulation: \"Nuclear Decision-Making Under Constraints\"",
+      "kind": "Workshop",
+      "closed": false,
+      "sort": "10:50",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Chira Zerbo",
+          "role": "International Business Development Specialist, Cambridge AtomWorks (Moderator)"
+        },
+        {
+          "name": "Eruchi Opara",
+          "role": "Utility-scale Battery Energy Storage Expert, UK (Moderator)"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-youth-t3",
+      "day": "2026-05-21",
+      "start": "10:50",
+      "end": "13:35",
+      "room": "KCC Workshops",
+      "title": "Youth in Nuclear, Track 3: Unlocking Youth Potential: How to Get Involved and Engaged",
+      "kind": "Workshops",
+      "closed": false,
+      "sort": "10:50",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Linnet Nyamweya",
+          "role": "President, Kenyan Young Generation in Nuclear"
+        },
+        {
+          "name": "Daniel Ajudeonu",
+          "role": "Africa Project Lead, Young Pugwash"
+        },
+        {
+          "name": "Asmaa Hanafi",
+          "role": "Researcher, Alexandria University"
+        },
+        {
+          "name": "Abubakar Sadiq Aliyu",
+          "role": "President, AYGN Nigeria"
+        },
+        {
+          "name": "Noble Eiaseb",
+          "role": "President, AYGN Namibia"
+        },
+        {
+          "name": "Dr. Safa Abdo",
+          "role": "Executive Secretary, Nuclear for Climate (Moderator)"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d3-closing",
+      "day": "2026-05-21",
+      "start": "13:40",
+      "end": "14:00",
+      "room": "Main Auditorium",
+      "title": "Closing Ceremony: From Commitment to Implementation: The Future of Nuclear Energy in Africa",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "13:40",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr. Lassina Zerbo",
+          "role": "Chairman, RAEB"
+        },
+        {
+          "name": "Dr. Jimmy Gasore",
+          "role": "Minister of Infrastructure, Rwanda"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d3-lunch",
+      "day": "2026-05-21",
+      "start": "14:00",
+      "end": "15:00",
+      "room": "",
+      "title": "Lunch & B2B Meetings",
+      "kind": "",
+      "closed": false,
+      "sort": "14:00",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    }
+  ]
+}
