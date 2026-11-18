@@ -24,16 +24,16 @@
     {
       "id": "ts-01",
       "day": "2026-11-18",
-      "start": "10:00",
-      "end": "10:30",
+      "start": "12:05",
+      "end": "12:12",
       "room": "Studio",
-      "title": "Welcome and briefing: how Pace Events works",
-      "kind": "Briefing",
+      "title": "Training Session: marketing and customer acquisition",
+      "kind": "Training",
       "closed": false,
-      "sort": "10:00",
+      "sort": "12:05",
       "timeLabel": null,
       "speakers": [],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "ts-02",
