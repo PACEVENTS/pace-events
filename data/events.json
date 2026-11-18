@@ -9,6 +9,16 @@
       "venue": "Kigali Convention Centre, Kigali",
       "logo": "assets/neisa-2026-logo.png",
       "accent": "#1F7BBF"
+    },
+    {
+      "slug": "training-session",
+      "name": "Training Session",
+      "short": "Training Session",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-18",
+      "venue": "Pace Production, KBC Building, Kigali",
+      "logo": "",
+      "accent": "#C4A454"
     }
   ]
 }

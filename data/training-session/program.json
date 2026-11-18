@@ -1,0 +1,81 @@
+{
+  "timezoneLabel": "Kigali time (GMT +02:00)",
+  "days": [
+    {
+      "date": "2026-11-18",
+      "label": "Training day"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ts-00",
+      "day": "2026-11-18",
+      "start": "09:00",
+      "end": "09:15",
+      "room": "Studio",
+      "title": "System test: Otter sample recording",
+      "kind": "Test",
+      "closed": false,
+      "sort": "09:00",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": true
+    },
+    {
+      "id": "ts-01",
+      "day": "2026-11-18",
+      "start": "10:00",
+      "end": "10:30",
+      "room": "Studio",
+      "title": "Welcome and briefing: how Pace Events works",
+      "kind": "Briefing",
+      "closed": false,
+      "sort": "10:00",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "ts-02",
+      "day": "2026-11-18",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "Studio",
+      "title": "Recording in Otter: naming, starting and stopping sessions",
+      "kind": "Practice",
+      "closed": false,
+      "sort": "10:30",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "ts-03",
+      "day": "2026-11-18",
+      "start": "11:15",
+      "end": "12:00",
+      "room": "Room B",
+      "title": "Panel practice: recording several speakers",
+      "kind": "Practice",
+      "closed": false,
+      "sort": "11:15",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "ts-04",
+      "day": "2026-11-18",
+      "start": "12:00",
+      "end": "12:15",
+      "room": "Room B",
+      "title": "Crew debrief",
+      "kind": "Closed",
+      "closed": true,
+      "sort": "12:00",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    }
+  ]
+}
