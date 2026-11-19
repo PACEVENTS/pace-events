@@ -2,112 +2,1295 @@
   "timezoneLabel": "Kigali time (GMT +02:00)",
   "days": [
     {
+      "date": "2026-11-15",
+      "label": "Pre-conference Day 1"
+    },
+    {
+      "date": "2026-11-16",
+      "label": "Pre-conference Day 2"
+    },
+    {
       "date": "2026-11-17",
-      "label": "Day 1 · Commit & Invest"
+      "label": "Forum Day 1 · Commit & Invest"
     },
     {
       "date": "2026-11-18",
-      "label": "Day 2 · Educate, Deploy, Retain"
+      "label": "Forum Day 2 · Educate, Deploy, Retain"
+    },
+    {
+      "date": "2026-11-19",
+      "label": "Forum Day 3 · Advocate & Empower"
     }
   ],
   "sessions": [
     {
-      "id": "opening",
+      "id": "p1-registration",
+      "day": "2026-11-15",
+      "start": "08:15",
+      "end": "08:45",
+      "room": "",
+      "title": "Registration and welcome coffee",
+      "kind": "",
+      "closed": false,
+      "sort": "08:15on",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "p1-opening",
+      "day": "2026-11-15",
+      "start": "08:45",
+      "end": "09:15",
+      "room": "",
+      "title": "Opening and welcome",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "08:45ng",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Frida Temple",
+          "role": "Chair"
+        },
+        {
+          "name": "Christa Ishimwe",
+          "role": "Program Advisor, Climate and Health, MoH Rwanda"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p1-climate-mnh",
+      "day": "2026-11-15",
+      "start": "09:15",
+      "end": "10:00",
+      "room": "",
+      "title": "Climate change and maternal & newborn health in Africa",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "09:15nh",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Prof Sibusiso Mkwananzi",
+          "role": ""
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p1-heat-floods",
+      "day": "2026-11-15",
+      "start": "10:00",
+      "end": "10:30",
+      "room": "",
+      "title": "Brief: heat, floods and pregnancy",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "10:00ds",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Ms Margaret Ontiretse",
+          "role": "Botswana"
+        },
+        {
+          "name": "UNFPA Kenya",
+          "role": "Country office experience sharing"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p1-break-am",
+      "day": "2026-11-15",
+      "start": "10:30",
+      "end": "11:00",
+      "room": "",
+      "title": "Health break",
+      "kind": "",
+      "closed": false,
+      "sort": "10:30am",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "p1-india",
+      "day": "2026-11-15",
+      "start": "11:00",
+      "end": "12:00",
+      "room": "",
+      "title": "Experience from India. Heat and Pregnancy Guidance: country spotlights",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "11:00ia",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr Akash Shrivastava",
+          "role": "India"
+        },
+        {
+          "name": "Saswati Das",
+          "role": "India"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p1-indicators",
+      "day": "2026-11-15",
+      "start": "12:00",
+      "end": "12:45",
+      "room": "",
+      "title": "Priority Indicators to Monitor the Impact of Heat Exposure on Maternal, Newborn and Child Health",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "12:00rs",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Katy Mitchelle",
+          "role": "Virtual"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p1-lunch",
+      "day": "2026-11-15",
+      "start": "12:45",
+      "end": "13:45",
+      "room": "",
+      "title": "Lunch",
+      "kind": "",
+      "closed": false,
+      "sort": "12:45ch",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "p1-groups",
+      "day": "2026-11-15",
+      "start": "13:45",
+      "end": "15:15",
+      "room": "",
+      "title": "Discussion: Climate-Related Maternal and Newborn Health Risks and Adaptation Priorities",
+      "kind": "Group work",
+      "closed": false,
+      "sort": "13:45ps",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Prof Sibusiso Mkwananzi",
+          "role": "Moderator"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p1-break-pm",
+      "day": "2026-11-15",
+      "start": "15:15",
+      "end": "15:30",
+      "room": "",
+      "title": "Health break",
+      "kind": "",
+      "closed": false,
+      "sort": "15:15pm",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "p1-reportback",
+      "day": "2026-11-15",
+      "start": "15:30",
+      "end": "16:15",
+      "room": "",
+      "title": "Plenary report-back and consensus on validated evidence",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "15:30ck",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Prof Sibusiso Mkwananzi",
+          "role": "Moderator"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p1-unfpa-vp",
+      "day": "2026-11-15",
+      "start": "16:15",
+      "end": "16:55",
+      "room": "",
+      "title": "UNFPA Value Proposition on Climate Change 2.0",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "16:15vp",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Muna Abdullah",
+          "role": "UNFPA ESARO"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p1-close",
+      "day": "2026-11-15",
+      "start": "16:55",
+      "end": "17:15",
+      "room": "",
+      "title": "Reflections and close of Day 1",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "16:55se",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Chair",
+          "role": ""
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p2-recap",
+      "day": "2026-11-16",
+      "start": "08:30",
+      "end": "08:45",
+      "room": "",
+      "title": "Recap of Day 1 and objectives for Day 2",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "08:30ap",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Chair",
+          "role": ""
+        },
+        {
+          "name": "Yousuf Alrawi",
+          "role": "UNFPA ESARO"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p2-somwy",
+      "day": "2026-11-16",
+      "start": "08:45",
+      "end": "09:45",
+      "room": "",
+      "title": "Findings of the State of Midwifery in the ESA region",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "08:45wy",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Muna Abdullah",
+          "role": "UNFPA ESARO"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p2-frontline",
+      "day": "2026-11-16",
+      "start": "09:45",
+      "end": "10:45",
+      "room": "",
+      "title": "Frontline voices: midwives' clinical experiences",
+      "kind": "Panel",
+      "closed": false,
+      "sort": "09:45ne",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Midwifery Panel (ESA)",
+          "role": "Zambia, Uganda, Tanzania"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p2-break-am",
+      "day": "2026-11-16",
+      "start": "10:45",
+      "end": "11:15",
+      "room": "",
+      "title": "Health break",
+      "kind": "",
+      "closed": false,
+      "sort": "10:45am",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "p2-groups",
+      "day": "2026-11-16",
+      "start": "11:15",
+      "end": "12:15",
+      "room": "",
+      "title": "Group work on the country profile data from SoMWY ESA 2024",
+      "kind": "Group work",
+      "closed": false,
+      "sort": "11:15ps",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Muna Abdullah",
+          "role": "UNFPA ESARO"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p2-lunch",
+      "day": "2026-11-16",
+      "start": "12:15",
+      "end": "13:15",
+      "room": "",
+      "title": "Lunch",
+      "kind": "",
+      "closed": false,
+      "sort": "12:15ch",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "p2-guidance",
+      "day": "2026-11-16",
+      "start": "13:15",
+      "end": "14:15",
+      "room": "",
+      "title": "Country-specific guidance review and validation",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "13:15ce",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Prof Sibusiso Mkwananzi",
+          "role": ""
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p2-break-pm",
+      "day": "2026-11-16",
+      "start": "14:15",
+      "end": "14:45",
+      "room": "",
+      "title": "Health break",
+      "kind": "",
+      "closed": false,
+      "sort": "14:15pm",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "p2-closing",
+      "day": "2026-11-16",
+      "start": "14:45",
+      "end": "15:30",
+      "room": "",
+      "title": "Closing remarks",
+      "kind": "Pre-conference",
+      "closed": false,
+      "sort": "14:45ng",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "UNFPA ESARO",
+          "role": ""
+        },
+        {
+          "name": "MoH Rwanda",
+          "role": ""
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "p2-reception",
+      "day": "2026-11-16",
+      "start": "18:30",
+      "end": "20:00",
+      "room": "",
+      "title": "Reception",
+      "kind": "",
+      "closed": false,
+      "sort": "18:30on",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-registration-guest-arrival-n",
+      "day": "2026-11-17",
+      "start": "08:30",
+      "end": "09:45",
+      "room": "",
+      "title": "Registration, Guest Arrival & Networking",
+      "kind": "",
+      "closed": false,
+      "sort": "08:30-n",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-performance-introduction-hou",
+      "day": "2026-11-17",
+      "start": "09:45",
+      "end": "09:50",
+      "room": "Kilimanjaro",
+      "title": "Performance Introduction & Housekeeping",
+      "kind": "",
+      "closed": false,
+      "sort": "09:45ou",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-traditional-rwandan-cultural",
+      "day": "2026-11-17",
+      "start": "09:50",
+      "end": "10:05",
+      "room": "Kilimanjaro",
+      "title": "Traditional Rwandan Cultural Performance",
+      "kind": "",
+      "closed": false,
+      "sort": "09:50al",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-arrival-and-seating-of-digni",
+      "day": "2026-11-17",
+      "start": "10:00",
+      "end": "10:05",
+      "room": "Kilimanjaro",
+      "title": "Arrival and Seating of Dignitaries",
+      "kind": "",
+      "closed": false,
+      "sort": "10:00ni",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-opening",
       "day": "2026-11-17",
       "start": "10:05",
       "end": "11:00",
-      "sort": "10:05",
-      "timeLabel": null,
       "room": "Kilimanjaro",
-      "title": "Keynote Address and Official Opening of the Forum",
+      "title": "Official Opening Ceremony and Keynote Address",
       "kind": "Plenary",
       "closed": false,
-      "speakers": [],
+      "sort": "10:05ng",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Annet Mwizerwa",
+          "role": "Moderator"
+        },
+        {
+          "name": "Dr. Olive Bazirete",
+          "role": "Dean, School of Nursing and Midwifery, University of Rwanda"
+        },
+        {
+          "name": "Frida Temple",
+          "role": "Comprehensive SRHR Programme Specialist, SRHR, UNFPA"
+        },
+        {
+          "name": "H.E. Mridu Pawan Das",
+          "role": "High Commissioner of India to Rwanda"
+        },
+        {
+          "name": "H.E. Prof. Dr. Khaled Abdel Ghaffar",
+          "role": "Minister of Health and Population, Egypt · Video remarks"
+        },
+        {
+          "name": "H.E. Henrik Nilsson",
+          "role": "Ambassador of Sweden to Rwanda"
+        },
+        {
+          "name": "Dr. Jean Kaseya",
+          "role": "Director General, Africa CDC · Video remarks"
+        },
+        {
+          "name": "Ms. Lydia Zigomo",
+          "role": "UNFPA Regional Director for East and Southern Africa"
+        },
+        {
+          "name": "Ms. Lieke van de Wiel",
+          "role": "UNICEF Rwanda Country Representative"
+        },
+        {
+          "name": "Dr. Yvan Butera",
+          "role": "Minister of State in the Ministry of Health, Rwanda · Keynote Address and Official Opening"
+        }
+      ],
       "transcript": true
     },
     {
-      "id": "t1",
+      "id": "d1-official-group-photograph",
+      "day": "2026-11-17",
+      "start": "10:50",
+      "end": "10:55",
+      "room": "Kilimanjaro",
+      "title": "Official Group Photograph",
+      "kind": "",
+      "closed": false,
+      "sort": "10:50ph",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-closing-of-the-opening-cerem",
+      "day": "2026-11-17",
+      "start": "10:55",
+      "end": "11:00",
+      "room": "Kilimanjaro",
+      "title": "Closing of the Opening Ceremony and Transition",
+      "kind": "",
+      "closed": false,
+      "sort": "10:55em",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-strengthen-policy-and-regula",
       "day": "2026-11-17",
       "start": "12:15",
-      "end": "13:15",
-      "sort": "12:15",
-      "timeLabel": null,
+      "end": "13:10",
       "room": "Kilimanjaro",
-      "title": "Plenary: Strengthen policy and regulatory frameworks & Introduction to the Roadmap & Transition to breakouts",
+      "title": "Plenary: Strengthen policy and regulatory frameworks",
       "kind": "Plenary",
       "closed": false,
-      "speakers": [],
+      "sort": "12:15la",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr. Hala Youssef",
+          "role": "Regional SRHR Adviser, UNFPA ASRO, Moderator"
+        },
+        {
+          "name": "Ms. Maissa Arafat ElHidmy",
+          "role": "Director of Health and Humanitarian Division of the Social Sector at the League of Arab States in Cairo"
+        },
+        {
+          "name": "Dr. Christiana Mansallay",
+          "role": "Regulator at Nursing and Midwifery Council, Sierra Leone"
+        },
+        {
+          "name": "Ebba Sacko",
+          "role": "Senior Technical Officer, Maternal and Reproductive Health, Africa CDC"
+        },
+        {
+          "name": "Hilma Shikwambi",
+          "role": "Regional SRHR Specialist, UNFPA West Africa"
+        },
+        {
+          "name": "Mollie Fair",
+          "role": "Regional SRHR Specialist, UNFPA Arab States"
+        },
+        {
+          "name": "Muna Abdullah",
+          "role": "Regional SRHR Adviser, UNFPA Eastern and Southern Africa"
+        }
+      ],
       "transcript": true
     },
     {
-      "id": "t2",
+      "id": "d1-introduction-to-the-roadmap",
       "day": "2026-11-17",
       "start": "13:10",
       "end": "13:15",
-      "sort": "13:10",
-      "timeLabel": null,
-      "room": "Kilimanjaro",
-      "title": "Introduction to the Roadmap",
-      "kind": "Plenary",
+      "room": "",
+      "title": "Introduction to the Roadmap & Transition to breakouts",
+      "kind": "Session",
       "closed": false,
-      "speakers": [],
+      "sort": "13:10ap",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Mollie Fair",
+          "role": "UNFPA ASRO"
+        },
+        {
+          "name": "Julia Bluestone",
+          "role": "Technical Director, Learning and Performance, Jhpiego"
+        }
+      ],
       "transcript": true
     },
     {
-      "id": "t3",
+      "id": "d1-lunch-break",
+      "day": "2026-11-17",
+      "start": "13:15",
+      "end": "14:10",
+      "room": "",
+      "title": "Lunch Break",
+      "kind": "",
+      "closed": false,
+      "sort": "13:15ak",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-roadmap-breakout-session-pil",
+      "day": "2026-11-17",
+      "start": "14:10",
+      "end": "15:00",
+      "room": "Kilimanjaro, Muhazi, Virunga, Ruhondo",
+      "title": "Roadmap Breakout Session · Pillar 1: Accelerator 1",
+      "kind": "",
+      "closed": false,
+      "sort": "14:10il",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-increasing-domestic-global-i",
+      "day": "2026-11-17",
+      "start": "15:10",
+      "end": "16:10",
+      "room": "Kilimanjaro",
+      "title": "Plenary: Increasing Domestic & Global Investments",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "15:10-i",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr. Dan Okoro",
+          "role": "Maternal Health/Midwifery Specialist, UNFPA Sierra Leone, Moderator"
+        },
+        {
+          "name": "INGERI Denyse",
+          "role": "Health insurance and Risk Pooling officer and Ag Sector Strategic Planning Specialist, Ministry of Health Rwanda"
+        },
+        {
+          "name": "Aminata Nunie",
+          "role": "Chief Nursing and Midwifery Officer, Ministry of Health Sierra Leone"
+        },
+        {
+          "name": "Rasha Hafez",
+          "role": "GBV, FGM & HP Service Programme Analyst, UNFPA Egypt"
+        },
+        {
+          "name": "Ashu Martha Agbornyenty",
+          "role": "Founder/Executive Director, For Mom & Baby Foundation"
+        },
+        {
+          "name": "Kadi Toure",
+          "role": "Team Lead, Global Advocacy and Africa Region, PMNCH, WHO"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d1-midwifery-models-of-care-in",
       "day": "2026-11-17",
       "start": "16:20",
-      "end": "17:10",
-      "sort": "16:20",
-      "timeLabel": null,
+      "end": "17:00",
       "room": "Kilimanjaro",
-      "title": "Transition to breakouts & Midwifery Models of Care in the African Continent & Day 1 Wrap-Up & Synthesis",
-      "kind": "Plenary",
+      "title": "Midwifery Models of Care in the African Continent",
+      "kind": "Session",
       "closed": false,
-      "speakers": [],
+      "sort": "16:20in",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Jemima Araba Dennis-Antwi",
+          "role": "PhD, Founding President/CEO, Centre for Health Development and Research (CEHDAR), Moderator"
+        },
+        {
+          "name": "Dr. Eva Mensah/Innes Agbenu",
+          "role": "Ministry of Health, Ghana"
+        },
+        {
+          "name": "Bigue Ba Mbodji",
+          "role": "Senegal Midwives Association"
+        },
+        {
+          "name": "Jane Frances",
+          "role": "Uganda Ministry of Health"
+        },
+        {
+          "name": "Jama Egal",
+          "role": "Somaliland Midwifery Association"
+        },
+        {
+          "name": "Heather Gulliver",
+          "role": "SEED Global Health, Malawi"
+        }
+      ],
       "transcript": true
     },
     {
-      "id": "t4",
+      "id": "d1-day-1-wrap-up-synthesis",
+      "day": "2026-11-17",
+      "start": "17:00",
+      "end": "17:10",
+      "room": "Kilimanjaro",
+      "title": "Day 1 Wrap-Up & Synthesis",
+      "kind": "Session",
+      "closed": false,
+      "sort": "17:00is",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Ashu Martha Agbornyenty",
+          "role": "Executive Director, For Mom & Baby Foundation"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d2-day-1-roadmap-recap",
       "day": "2026-11-18",
       "start": "09:00",
-      "end": "10:15",
-      "sort": "09:00",
-      "timeLabel": null,
+      "end": "09:15",
       "room": "Kilimanjaro",
-      "title": "Day 1 Roadmap Recap Plenary: Transforming Pre-Service Education & Curricula, Quality Education and Professional Development",
-      "kind": "Plenary",
+      "title": "Day 1 Roadmap Recap",
+      "kind": "Session",
       "closed": false,
-      "speakers": [],
+      "sort": "09:00ap",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Mollie Fair",
+          "role": "UNFPA ASRO"
+        },
+        {
+          "name": "Dr Sanae Elomrani",
+          "role": ""
+        }
+      ],
       "transcript": true
     },
     {
-      "id": "t5",
+      "id": "d2-transforming-pre-service-edu",
+      "day": "2026-11-18",
+      "start": "09:15",
+      "end": "10:15",
+      "room": "Kilimanjaro",
+      "title": "Plenary: Transforming Pre-Service Education & Curricula, Quality Education and Professional Development",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "09:15du",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Prof. Doreen Kaura",
+          "role": "University of the Western Cape"
+        },
+        {
+          "name": "Dr. Duncan Shikuku",
+          "role": "UNFPA"
+        },
+        {
+          "name": "Kate Stringer",
+          "role": "ICM"
+        },
+        {
+          "name": "Dr. Gylian Mein",
+          "role": "ECSACONM"
+        },
+        {
+          "name": "Olive Tengera",
+          "role": "Lecturer, University of Rwanda"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d2-tea-health-break",
+      "day": "2026-11-18",
+      "start": "10:15",
+      "end": "10:30",
+      "room": "",
+      "title": "Tea & Health Break",
+      "kind": "",
+      "closed": false,
+      "sort": "10:15ak",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-roadmap-breakout-session-pil",
+      "day": "2026-11-18",
+      "start": "10:30",
+      "end": "12:00",
+      "room": "Kilimanjaro, Muhazi, Virunga, Ruhondo",
+      "title": "Roadmap Breakout Session · Pillar 1: Accelerator 2 · Pillar 2: Accelerator 3",
+      "kind": "",
+      "closed": false,
+      "sort": "10:30il",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-midwives-and-integrated-srhr",
       "day": "2026-11-18",
       "start": "12:10",
       "end": "13:00",
-      "sort": "12:10",
-      "timeLabel": null,
       "room": "Kilimanjaro",
       "title": "Plenary: Midwives and Integrated SRHR Services (Including FP and HIV)",
       "kind": "Plenary",
       "closed": false,
-      "speakers": [],
+      "sort": "12:10hr",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr Yousuf Alrawi",
+          "role": "UNFPA ESARO, Session opening"
+        },
+        {
+          "name": "Dr Chilanga Asmani",
+          "role": "UNFPA WCARO, Panel moderator"
+        },
+        {
+          "name": "Fatima Halidani",
+          "role": "President, Comoros Islands Midwives Association"
+        },
+        {
+          "name": "Hawa Abdullahi Elmi",
+          "role": "UNFPA Somalia"
+        },
+        {
+          "name": "Annete Kanyunyuzi",
+          "role": "National Midwifery Association of Uganda (NMAU)"
+        }
+      ],
       "transcript": true
     },
     {
-      "id": "t6",
+      "id": "d2-lunch-break",
+      "day": "2026-11-18",
+      "start": "13:00",
+      "end": "14:00",
+      "room": "",
+      "title": "Lunch Break",
+      "kind": "",
+      "closed": false,
+      "sort": "13:00ak",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-retention-through-safe-suppo",
       "day": "2026-11-18",
       "start": "14:00",
-      "end": "17:30",
-      "sort": "14:00",
-      "timeLabel": null,
+      "end": "14:45",
       "room": "Kilimanjaro",
-      "title": "Plenary: Retention through safe, supportive, accountable workplaces. Data-driven deployment & Plenary: Scaling-up the implementation of the Global PPHF Guidelines Day 2 Wrap-Up & Synthesis",
+      "title": "Plenary: Retention through safe, supportive, accountable workplaces. Data-driven deployment",
       "kind": "Plenary",
       "closed": false,
-      "speakers": [],
+      "sort": "14:00po",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr Chilanga Asmani",
+          "role": "UNFPA WCARO, Session  moderator"
+        },
+        {
+          "name": "Prof. Doreen Kaura",
+          "role": "University of the Western Cape"
+        },
+        {
+          "name": "Ebba Sacko",
+          "role": "Senior Technical Officer, Maternal and Reproductive Health, Africa CDC"
+        },
+        {
+          "name": "Dr Antoinette Tougouma/Valian",
+          "role": "Special Adviser to the Minister of Health, Burkina Faso"
+        },
+        {
+          "name": "Dr Ndagi Alhassan",
+          "role": "Registrar/Chief Executive Officer, Nursing and Midwifery Council of Nigeria"
+        },
+        {
+          "name": "Muhammed Teni",
+          "role": "Ministry of Health, Ethiopia."
+        }
+      ],
       "transcript": true
+    },
+    {
+      "id": "d2-tea-health-break-2",
+      "day": "2026-11-18",
+      "start": "14:45",
+      "end": "15:00",
+      "room": "",
+      "title": "Tea & Health Break",
+      "kind": "",
+      "closed": false,
+      "sort": "14:45-2",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-roadmap-breakout-session-pil-2",
+      "day": "2026-11-18",
+      "start": "15:00",
+      "end": "16:15",
+      "room": "Kilimanjaro, Muhazi, Virunga, Ruhondo",
+      "title": "Roadmap Breakout Session · Pillar 2: Accelerator 4 & 5",
+      "kind": "",
+      "closed": false,
+      "sort": "15:00-2",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-scaling-up-the-implementatio",
+      "day": "2026-11-18",
+      "start": "16:30",
+      "end": "17:15",
+      "room": "Kilimanjaro",
+      "title": "Plenary: Scaling-up the implementation of the Global PPHF Guidelines",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "16:30io",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Dr. Yousuf Alrawi",
+          "role": "Maternal Health Programme Specialist, UNFPA ESARO"
+        },
+        {
+          "name": "Rosemary Njogu",
+          "role": "Sr. Regional Clinical Advisor-MNH & Immunization, Jhpiego"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d2-day-2-wrap-up-synthesis",
+      "day": "2026-11-18",
+      "start": "17:15",
+      "end": "17:30",
+      "room": "Kilimanjaro",
+      "title": "Day 2 Wrap-Up & Synthesis",
+      "kind": "Session",
+      "closed": false,
+      "sort": "17:15is",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Ashu Martha Agbornyenty",
+          "role": "Executive Director, For Mom & Baby Foundation"
+        }
+      ],
+      "transcript": true
+    },
+    {
+      "id": "d3-day-2-roadmap-recap",
+      "day": "2026-11-19",
+      "start": "09:00",
+      "end": "09:10",
+      "room": "Kilimanjaro",
+      "title": "Day 2 Roadmap Recap",
+      "kind": "Session",
+      "closed": false,
+      "sort": "09:00ap",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Chilanga Asmani",
+          "role": "UNFPA"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-midwifery-leadership-coaliti",
+      "day": "2026-11-19",
+      "start": "09:10",
+      "end": "10:00",
+      "room": "Kilimanjaro",
+      "title": "Plenary: Midwifery Leadership, Coalitions & Governance",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "09:10ti",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Jemima Araba Dennis-Antwi",
+          "role": "PhD, Founding President/CEO, Centre for Health Development and Research (CEHDAR), Moderator"
+        },
+        {
+          "name": "Prof. Jacqueline Dunkley-Bent",
+          "role": "ICM"
+        },
+        {
+          "name": "Dr. Terry Kigundu",
+          "role": "PhD, WomenLIFT Health"
+        },
+        {
+          "name": "Daphne Shamambo",
+          "role": "Chief Nurse, Midwife Officer"
+        },
+        {
+          "name": "Prof. Doreen Kaura",
+          "role": "University of the Western Cape"
+        },
+        {
+          "name": "Dr. Atf Gherissi",
+          "role": "Arab Regional Midwifery Advisory Group, independent consultant"
+        },
+        {
+          "name": "Ibrahim Yimer",
+          "role": "RH, Deputy Executive Director,"
+        },
+        {
+          "name": "Ethiopian Midwives Association",
+          "role": ""
+        },
+        {
+          "name": "Laurence Monteiro",
+          "role": "FASFAA"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-roadmap-breakout-session-pil",
+      "day": "2026-11-19",
+      "start": "10:10",
+      "end": "11:10",
+      "room": "Kilimanjaro, Ruhondo",
+      "title": "Roadmap Breakout Session · Pillar 3: Accelerator 6 & 7",
+      "kind": "",
+      "closed": false,
+      "sort": "10:10il",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-tea-health-break",
+      "day": "2026-11-19",
+      "start": "11:10",
+      "end": "11:40",
+      "room": "",
+      "title": "Tea & Health Break",
+      "kind": "",
+      "closed": false,
+      "sort": "11:10ak",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-community-engagement-elevati",
+      "day": "2026-11-19",
+      "start": "11:40",
+      "end": "12:45",
+      "room": "Kilimanjaro",
+      "title": "Plenary: Community Engagement & Elevating Advocacy",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "11:40ti",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Angela Nguku",
+          "role": "White Ribbon Alliance"
+        },
+        {
+          "name": "Kadi Toure",
+          "role": "Team Lead, Global Advocacy and Africa Region, PMNCH, WHO"
+        },
+        {
+          "name": "Hawa Elmi",
+          "role": "UNFPA Somalia"
+        },
+        {
+          "name": "Dr. Laila Acherai",
+          "role": "UNFPA Morocco"
+        },
+        {
+          "name": "Dr. Sanae ElOmrani",
+          "role": "MOH Morocco"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-lunch-break",
+      "day": "2026-11-19",
+      "start": "12:45",
+      "end": "14:00",
+      "room": "",
+      "title": "Lunch Break",
+      "kind": "",
+      "closed": false,
+      "sort": "12:45ak",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-present-accelerator-6-7",
+      "day": "2026-11-19",
+      "start": "14:00",
+      "end": "14:10",
+      "room": "Kilimanjaro",
+      "title": "Present Accelerator 6 & 7",
+      "kind": "",
+      "closed": false,
+      "sort": "14:00-7",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-simulation-based-learning-an",
+      "day": "2026-11-19",
+      "start": "14:10",
+      "end": "15:10",
+      "room": "Kilimanjaro",
+      "title": "Special Technical Session: Simulation-Based Learning and Digital Tools",
+      "kind": "Session",
+      "closed": false,
+      "sort": "14:10an",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Julia Bluestone",
+          "role": "Technical Director, Learning and Performance, Jhpiego"
+        },
+        {
+          "name": "Asmita Acharya",
+          "role": "Senior Education and Implementation Manager, Laerdal Global Health"
+        },
+        {
+          "name": "Franka Cadée",
+          "role": "Director, Safe Delivery Programme, Maternity Foundation"
+        },
+        {
+          "name": "Olive Tengera",
+          "role": "Lecturer, University of Rwanda"
+        },
+        {
+          "name": "Saturini Manangwa",
+          "role": "Assistant Director for Quality Improvement in Nursing and Midwifery, MoH Tanzania"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-tea-health-break-2",
+      "day": "2026-11-19",
+      "start": "15:10",
+      "end": "15:30",
+      "room": "",
+      "title": "Tea & Health Break",
+      "kind": "",
+      "closed": false,
+      "sort": "15:10-2",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-validation-plenary",
+      "day": "2026-11-19",
+      "start": "15:30",
+      "end": "16:30",
+      "room": "Kilimanjaro",
+      "title": "Validation Plenary",
+      "kind": "Plenary",
+      "closed": false,
+      "sort": "15:30ry",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Brandy Svendson",
+          "role": "Be the Change"
+        },
+        {
+          "name": "Hilma Shikwambi",
+          "role": "Midwifery Specialist, UNFPA"
+        },
+        {
+          "name": "Country Endorsement of the Roadmap",
+          "role": ""
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-closing-ceremony",
+      "day": "2026-11-19",
+      "start": "16:30",
+      "end": "17:00",
+      "room": "Kilimanjaro",
+      "title": "Closing Ceremony",
+      "kind": "Session",
+      "closed": false,
+      "sort": "16:30ny",
+      "timeLabel": null,
+      "speakers": [
+        {
+          "name": "Ebba Sacko",
+          "role": "Senior Technical Officer, Maternal and Reproductive Health, Africa CDC"
+        },
+        {
+          "name": "Dr. Olugbemiga Adelakin",
+          "role": "UNFPA Rwanda Representative"
+        },
+        {
+          "name": "Jean Marie Vianney Ndayizigiye",
+          "role": "The Permanent Secretary of the Ministry of Health, Rwanda"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-sherehe-celebration",
+      "day": "2026-11-19",
+      "start": "18:00",
+      "end": "20:00",
+      "room": "Kilimanjaro Terrace",
+      "title": "Sherehe! (Celebration)",
+      "kind": "",
+      "closed": false,
+      "sort": "18:00on",
+      "timeLabel": null,
+      "speakers": [],
+      "transcript": false
     }
   ]
 }
