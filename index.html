@@ -49,7 +49,7 @@ h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;color:va
 /* Event header */
 .ev-head{background:var(--white);border-bottom:3px solid var(--accent)}
 .ev-head .wrap{display:flex;align-items:center;gap:24px;padding-top:28px;padding-bottom:28px}
-.ev-head .logo{width:220px;height:84px;display:flex;align-items:center;justify-content:center;flex:none}
+.ev-head .logo{width:auto;max-width:320px;height:84px;display:flex;align-items:center;justify-content:center;flex:none}
 .ev-head .logo img{max-width:100%;max-height:100%}
 .ev-head h1{font-size:clamp(28px,4.5vw,44px);line-height:1.1}
 .ev-head .sub{color:var(--grey);font-size:13px;margin-top:6px}
@@ -309,7 +309,7 @@ footer a{color:var(--grey);text-decoration:none}
           <h1>${esc(s.title)}</h1>
           ${(s.speakers||[]).length ? `<div class="speakers">${s.speakers.map(p=>`<div class="spk"><b>${esc(p.name)}</b>${p.role?` <span>· ${esc(p.role)}</span>`:''}</div>`).join('')}</div>` : ''}
         </div>
-        ${tr ? transcriptBlock(tr) : s.closed ? `<div class="pending-box"><div class="label" style="justify-content:center">Closed session</div><h3>Held in private</h3><p>This was a closed-door session. No public transcript is available.</p></div>` : `<div class="pending-box"><div class="label" style="justify-content:center">Transcript</div><h3>Coming soon</h3><p>The transcript for this session will be published here shortly after it ends.</p></div>`}
+        ${tr ? transcriptBlock(tr) : s.closed ? `<div class="pending-box"><div class="label" style="justify-content:center">Closed session</div><h3>Held in private</h3><p>This was a closed-door session. No public transcript is available.</p></div>` : (s.day < new Date().toLocaleDateString('en-CA', {timeZone:'Africa/Kigali'})) ? `<div class="pending-box"><div class="label" style="justify-content:center">Transcript</div><h3>Not available</h3><p>No transcript was published for this session.</p></div>` : `<div class="pending-box"><div class="label" style="justify-content:center">Transcript</div><h3>Coming soon</h3><p>The transcript for this session will be published here shortly after it ends.</p></div>`}
       </div>` + footer();
     window.scrollTo(0,0);
     if (tr) wireTranscript(tr);
