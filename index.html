@@ -390,7 +390,7 @@ footer a{color:var(--grey);text-decoration:none}
     if (h.startsWith('s-') && h.includes('--')) { const [slug,id] = h.slice(2).split('--'); return {view:'session', slug, id}; }
     return {view:'home'};
   }
-  function notFound(msg){ app.innerHTML = paceBar() + `<div class="wrap"><div class="empty">${esc(msg||'Event not found.')}</div></div>` + footer(); }
+  function notFound(msg){ setAccent(); document.title = 'Pace Events'; app.innerHTML = paceBar() + `<div class="wrap"><div class="empty">${esc(msg||'Event not found.')}</div></div>` + footer(); }
   function route(){
     modal.classList.remove('on');
     const r = currentRoute();
