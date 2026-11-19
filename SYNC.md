@@ -27,4 +27,4 @@ Run this for one event (EVENT = the event slug, e.g. `training-session`).
 7. Report: sessions published, recordings skipped (closed or unchanged), and any UNMATCHED titles that the
    crew must rename in Otter. Never guess a session for an unmatched recording.
 
-Live site: https://pacevents.github.io/pace-events/
+Live site: https://events.pace.rw/
