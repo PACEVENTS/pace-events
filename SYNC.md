@@ -1,6 +1,6 @@
 # Otter to Pace Events: sync procedure
 
-Run this for one event (EVENT = the event slug, e.g. `training-session`).
+Run this for one event (EVENT = the event's full slug = its folder name under data/, e.g. `training-session-zuzzoju6`). Events are unlisted: find today's events by reading every `data/*/event.json` (startDate <= today <= endDate). Never create a list of events or link events to each other.
 
 1. Attach and clone the repo: `add_repo` PACEVENTS/pace-events with push access, then
    `git clone --depth 1 https://github.com/PACEVENTS/pace-events /home/claude/pace-events-repo`.

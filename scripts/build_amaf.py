@@ -15,7 +15,7 @@ from add_transcript import parse
 
 REPO = Path(__file__).resolve().parent.parent
 AMAF = Path('/home/claude/amaf')
-EV = 'amaf-2026'
+EV = 'amaf-2026-hpejmkgr'
 P1, P2, F1, F2, F3 = '2026-11-15', '2026-11-16', '2026-11-17', '2026-11-18', '2026-11-19'
 
 S = []

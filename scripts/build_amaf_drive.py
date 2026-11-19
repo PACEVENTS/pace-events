@@ -10,7 +10,7 @@ from add_transcript import parse
 
 REPO = Path(__file__).resolve().parent.parent
 SRC = Path('/home/claude/amaf/src')
-EV = 'amaf-2026'
+EV = 'amaf-2026-hpejmkgr'
 F1, F2 = '2026-11-17', '2026-11-18'
 # (session id, local file, Drive file title, day, start, end)
 FILES = [
