@@ -51,6 +51,9 @@ add('p2-break-pm', P2, '14:15', '14:45', 'Health break', plain=True)
 add('p2-closing', P2, '14:45', '15:30', 'Closing remarks', [('UNFPA ESARO', ''), ('MoH Rwanda', '')], kind=K)
 add('p2-reception', P2, '18:30', '20:00', 'Reception', plain=True)
 
+# Pre-conference removed (all closed sessions, client instruction 19 Nov 2026).
+S.clear()
+
 # ---------- Forum (SOURCE OF TRUTH agenda) ----------
 def hm(t):
     t = t.strip().replace('.', ':')
@@ -124,8 +127,7 @@ op['speakers'] = [s for s in op['speakers'] if not s['name'].startswith('Moderat
 op['speakers'].insert(0, {'name': 'Annet Mwizerwa', 'role': 'Moderator'})
 seen = set(); op['speakers'] = [s for s in op['speakers'] if not (s['name'] in seen or seen.add(s['name']))]
 
-labels = {P1: 'Pre-conference Day 1', P2: 'Pre-conference Day 2', F1: 'Forum Day 1 · Commit & Invest',
-          F2: 'Forum Day 2 · Educate, Deploy, Retain', F3: 'Forum Day 3 · Advocate & Empower'}
+labels = {F1: 'Day 1 · Commit & Invest', F2: 'Day 2 · Educate, Deploy, Retain', F3: 'Day 3 · Advocate & Empower'}
 prog = {'timezoneLabel': 'Kigali time (GMT +02:00)',
         'days': [{'date': k, 'label': v} for k, v in labels.items()], 'sessions': S}
 
