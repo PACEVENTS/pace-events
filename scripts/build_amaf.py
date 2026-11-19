@@ -152,14 +152,23 @@ SPLITS = [
     ('t3-models-wrap1.docx', 1, None, F2, 'Plenary: Retention'),
     ('t4-recap-education.docx', 1, 138, F2, 'Plenary: Scaling-up'),
     ('t4-recap-education.docx', 138, None, F2, 'Day 2 Wrap-Up'),
+    # Day 3 (uploaded 19 Nov). Recap before the Leadership plenary was not recorded;
+    # official closing remarks (Sacko, Adelakin, Ndayizigiye) were not recorded.
+    ('d3a-recap-leadership.docx', 1, None, F3, 'Plenary: Midwifery Leadership'),
+    ('d3b-community.docx', 1, None, F3, 'Plenary: Community Engagement'),
+    ('d3c-simulation.docx', 1, None, F3, 'Special Technical Session'),
+    ('d3d-validation-closing.docx', 1, 43, F3, 'Validation Plenary'),
+    ('d3d-validation-closing.docx', 43, None, F3, 'Closing Ceremony'),
 ]
+# Background music picked up during the flag procession: not speech, and third-party lyrics. Leave out.
+MUSIC = re.compile(r'♪|jamboree|somebody loves you|zulu kuku|change your mind and come back home', re.I)
 ev_dir = REPO / 'data' / EV
 (ev_dir / 'transcripts').mkdir(parents=True, exist_ok=True)
 for f in (ev_dir / 'transcripts').glob('*.json'):
     f.unlink()
 for fname, a, b, day, prefix in SPLITS:
     sid = sid_for(day, prefix)
-    segs = parse(paras(fname)[a:b])
+    segs = parse([x for x in paras(fname)[a:b] if not MUSIC.search(x)])
     tr = {'session': sid, 'language': 'en', 'languageLabel': 'English',
           'source': {'drive': fname}, 'parts': [{'title': '', 'segments': segs}]}
     (ev_dir / 'transcripts' / f'{sid}.json').write_text(json.dumps(tr, ensure_ascii=False, separators=(',', ':')))

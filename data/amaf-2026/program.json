@@ -657,7 +657,7 @@
           "role": "FASFAA"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d3-roadmap-breakout-session-pil",
@@ -720,7 +720,7 @@
           "role": "MOH Morocco"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d3-lunch-break",
@@ -783,7 +783,7 @@
           "role": "Assistant Director for Quality Improvement in Nursing and Midwifery, MoH Tanzania"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d3-tea-health-break-2",
@@ -824,7 +824,7 @@
           "role": ""
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d3-closing-ceremony",
@@ -851,7 +851,7 @@
           "role": "The Permanent Secretary of the Ministry of Health, Rwanda"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d3-sherehe-celebration",
