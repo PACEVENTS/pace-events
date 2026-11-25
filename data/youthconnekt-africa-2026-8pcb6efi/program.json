@@ -1,0 +1,1089 @@
+{
+  "timezoneLabel": "Kigali time (GMT +02:00)",
+  "days": [
+    {
+      "date": "2026-11-25",
+      "label": "Day 1"
+    },
+    {
+      "date": "2026-11-26",
+      "label": "Day 2"
+    },
+    {
+      "date": "2026-11-27",
+      "label": "Day 3"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "d1-arrival",
+      "day": "2026-11-25",
+      "start": "08:30",
+      "end": "10:30",
+      "sort": "08:30al",
+      "timeLabel": null,
+      "room": "",
+      "title": "Arrival of delegates · Networking & DJ",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-01",
+      "day": "2026-11-25",
+      "start": "11:00",
+      "end": "12:30",
+      "sort": "11:0001",
+      "timeLabel": null,
+      "room": "Auditorium",
+      "title": "Official Opening Ceremony",
+      "kind": "High-level plenary",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Mr. Garikai Nhongo",
+          "role": "MC"
+        },
+        {
+          "name": "Mr. Yann Gwet",
+          "role": "Executive Director, YouthConnekt Africa"
+        },
+        {
+          "name": "Hon. Umutoni Sandrine",
+          "role": "Minister of State for Youth and Arts, Rwanda"
+        },
+        {
+          "name": "Dr. Matthias Naab",
+          "role": "Director, UNDP Regional Service Centre for Africa"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d1-02",
+      "day": "2026-11-25",
+      "start": "11:00",
+      "end": "12:30",
+      "sort": "11:0002",
+      "timeLabel": null,
+      "room": "Auditorium",
+      "title": "Generational Xchange: \"Shaping the Generational Mission\"",
+      "kind": "Conversation with Heads of State",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Tania Imani",
+          "role": "Moderator"
+        },
+        {
+          "name": "H.E. Paul Kagame",
+          "role": "President of the Republic of Rwanda"
+        },
+        {
+          "name": "H.E. Ntsokoane Samuel Matekane",
+          "role": "Prime Minister of the Kingdom of Lesotho"
+        },
+        {
+          "name": "H.E. Alexandre Barro Chambrier",
+          "role": "Vice President of the Republic of Gabon"
+        },
+        {
+          "name": "Mr. Mugisha Danny Vassili",
+          "role": "Youth speaker"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d1-launch",
+      "day": "2026-11-25",
+      "start": "11:00",
+      "end": "12:30",
+      "sort": "11:00ch",
+      "timeLabel": null,
+      "room": "",
+      "title": "Launch of Youth Spaces · Youth Innovations Marketplace",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-lunch",
+      "day": "2026-11-25",
+      "start": "13:00",
+      "end": "14:00",
+      "sort": "13:00ch",
+      "timeLabel": null,
+      "room": "",
+      "title": "Lunch",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-03",
+      "day": "2026-11-25",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:3003",
+      "timeLabel": null,
+      "room": "Auditorium",
+      "title": "Passing the Torch: Civic Action Across Generations",
+      "kind": "Cine debate · ASG",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Ms. Sharon Fru",
+          "role": "Moderator"
+        },
+        {
+          "name": "H.E. Ms. Danila Patrícia de Almeida Bragança Secretary of State",
+          "role": "Republic of Angola, Keynote"
+        },
+        {
+          "name": "Prof. Moniba K. Clarence",
+          "role": "Professor at ASG"
+        },
+        {
+          "name": "Prosper Sangidi",
+          "role": "Lead student"
+        },
+        {
+          "name": "Hon. Francis Gatare",
+          "role": "President of Africa School of Governance, Keynote"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d1-04",
+      "day": "2026-11-25",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:3004",
+      "timeLabel": null,
+      "room": "MH3",
+      "title": "Africa's Turn: Unlocking Opportunities Within, Shaping the World Beyond",
+      "kind": "TED talk style · YCA Hub",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Raymond Okpani",
+          "role": "Moderator"
+        },
+        {
+          "name": "Chioma Okonkwo (Entrepreneurship)",
+          "role": ""
+        },
+        {
+          "name": "Ebube Oguejiofor (Tech",
+          "role": ""
+        },
+        {
+          "name": "Innovation)",
+          "role": ""
+        },
+        {
+          "name": "Bruce Sakindi ( Leadership and Education)",
+          "role": ""
+        },
+        {
+          "name": "Fatoumata Dia",
+          "role": ""
+        },
+        {
+          "name": "Nesta Paul Katende",
+          "role": ""
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d1-05",
+      "day": "2026-11-25",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:3005",
+      "timeLabel": null,
+      "room": "AD12",
+      "title": "Policy Roundtable on Climate Change and SRHR",
+      "kind": "Policy roundtable · UNFPA, AUC, Imbuto Foundation",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Serge Sewa",
+          "role": "President, National Youth Observatory of Benin, Moderator"
+        },
+        {
+          "name": "Dr. Lakisa Mercy Faith",
+          "role": "Minister of State for Youth and Children Affairs Uganda, Keynote"
+        },
+        {
+          "name": "Vanessa Nakate",
+          "role": "AUC Youth Envoy, Uganda"
+        },
+        {
+          "name": "Abischag Jitimay",
+          "role": "Executive Director, IJCD, Burundi"
+        },
+        {
+          "name": "Ms. Linda Kalenga",
+          "role": "Ag. Deputy Representative"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d1-zones",
+      "day": "2026-11-25",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:30es",
+      "timeLabel": null,
+      "room": "",
+      "title": "Health Corner · Connekting Zone · AUC Egumeni Hub (AD10)",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-gala",
+      "day": "2026-11-25",
+      "start": "18:00",
+      "end": "20:30",
+      "sort": "18:00la",
+      "timeLabel": null,
+      "room": "",
+      "title": "Gala Dinner (hosted by the Government of Rwanda)",
+      "kind": "By invitation",
+      "closed": true,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-film",
+      "day": "2026-11-25",
+      "start": "18:00",
+      "end": "20:00",
+      "sort": "18:00lm",
+      "timeLabel": null,
+      "room": "",
+      "title": "Kigali Immersion: Outdoor Film Screening (Mashariki Film Festival) · KCC Roundabout",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-zaria",
+      "day": "2026-11-25",
+      "start": "18:00",
+      "end": "20:00",
+      "sort": "18:00ia",
+      "timeLabel": null,
+      "room": "",
+      "title": "Kigali Immersion: Imagine Kigali Day · Zaria Court",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d1-unipod",
+      "day": "2026-11-25",
+      "start": "18:00",
+      "end": "20:00",
+      "sort": "18:00od",
+      "timeLabel": null,
+      "room": "",
+      "title": "UNIPOD Demo Evening & Social Mixer (UNDP) · UNIPOD UR-CST",
+      "kind": "By invitation",
+      "closed": true,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-arrival",
+      "day": "2026-11-26",
+      "start": "08:30",
+      "end": "09:30",
+      "sort": "08:30al",
+      "timeLabel": null,
+      "room": "",
+      "title": "Arrival of delegates · Networking & DJ",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-01",
+      "day": "2026-11-26",
+      "start": "08:30",
+      "end": "09:30",
+      "sort": "08:3001",
+      "timeLabel": null,
+      "room": "AD10",
+      "title": "Securing the Future of Africa's University Innovation Pods",
+      "kind": "Ministerial breakfast · UNDP · By invitation",
+      "closed": true,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-02",
+      "day": "2026-11-26",
+      "start": "09:30",
+      "end": "11:00",
+      "sort": "09:3002",
+      "timeLabel": null,
+      "room": "Auditorium",
+      "title": "The Future of Jobs",
+      "kind": "TED talk & interactive panel · UNDP",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Diane Ineza",
+          "role": "UNDP, Moderator"
+        },
+        {
+          "name": "Dr. Matthias Naab",
+          "role": "Director, UNDP Regional Service Centre"
+        },
+        {
+          "name": "Tafara Makaza",
+          "role": "Co-Founder, Fixa"
+        },
+        {
+          "name": "Hon. Professor Ahmed Adam",
+          "role": "Minister of Youth and Sports, Keynote"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-03",
+      "day": "2026-11-26",
+      "start": "09:30",
+      "end": "11:00",
+      "sort": "09:3003",
+      "timeLabel": null,
+      "room": "MH2",
+      "title": "Beyond the City: Building Resilient Livelihoods 4 Rural Young Women (Part 1)",
+      "kind": "Workshop · BRAC",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Ms. Martina Abera Kabagambe",
+          "role": "Media Personality, Moderator"
+        },
+        {
+          "name": "Mr. Alex Bekunda",
+          "role": "Country Director, BRAC International Rwanda, Opening remarks"
+        },
+        {
+          "name": "Ms. Liliane Mutatsineza Nisingizwe",
+          "role": "AIM Programme participant, Rwanda, Storyteller"
+        },
+        {
+          "name": "Ms. Swarah Hassan King",
+          "role": "AIM Programme participant, Sierra Leone, Storyteller"
+        },
+        {
+          "name": "Ms. Gloria Nakitandwe",
+          "role": "AIM Programme participant, Uganda, Storyteller"
+        },
+        {
+          "name": "Ms. Abigail Kema Seiwon",
+          "role": "AIM Programme participant, Liberia, Storyteller"
+        },
+        {
+          "name": "Ms. Theofrida John",
+          "role": "AIM Programme Participant, Tanzania, Storyteller"
+        },
+        {
+          "name": "Esther Grace Saquee",
+          "role": "AIM participant / Youth Advocate, Sierra Leone, Moderator"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-04",
+      "day": "2026-11-26",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3004",
+      "timeLabel": null,
+      "room": "Auditorium",
+      "title": "Buy from Youth: Turning Green Livelihoods into Green Markets",
+      "kind": "High-level interactive panel · FAO, WFP, AGRA",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "UWINKESHA Lenarda",
+          "role": ""
+        },
+        {
+          "name": "Mr. Amath Pathé Sene",
+          "role": "Managing Director - African Food Systems Forum (AFSF)"
+        },
+        {
+          "name": "Ms. Stella Rusine Nteziryayo",
+          "role": "CEO, Development Bank of Rwanda"
+        },
+        {
+          "name": "Ms. Kampela Sayinzogo",
+          "role": "CEO, Access to Finance Rwanda (AFR)"
+        },
+        {
+          "name": "Dr. Momar Dieng",
+          "role": "Vice Chancellor- Rwanda Institute of Conservation Agriculture"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-05",
+      "day": "2026-11-26",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3005",
+      "timeLabel": null,
+      "room": "MH1",
+      "title": "Thrive Africa: Investing in Innovative Youth Health, Education & Empowerment",
+      "kind": "Intergenerational fireside chat · UNFPA, Imbuto Foundation, AU",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Umulisa Nelly Rurangwa",
+          "role": "Moderator"
+        },
+        {
+          "name": "Hon. Likando Mufalali",
+          "role": "Minister of Youth and Sports of the Republic of Zambia"
+        },
+        {
+          "name": "Ms. Hasset Dereje Admassu",
+          "role": "UNFPA Ethiopia Goodwill Ambassador"
+        },
+        {
+          "name": "Mr. Cece Koulemou",
+          "role": "Youth innovator, Guinea"
+        },
+        {
+          "name": "Ms. Kenza Coulibaly",
+          "role": "Youth innovator, Rwanda"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-06",
+      "day": "2026-11-26",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3006",
+      "timeLabel": null,
+      "room": "MH2",
+      "title": "Beyond the City: Building Resilient Livelihoods 4 Rural Young Women (Part 2)",
+      "kind": "Workshop · BRAC",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Diane Umutoni",
+          "role": "Head of Programmes, BRAC, Moderator"
+        },
+        {
+          "name": "Ms. Upoma Antara Husain",
+          "role": "CEO, BRAC Microfinance (Rwanda)"
+        },
+        {
+          "name": "Ms. Mireille Batamuliza",
+          "role": "Permanent Secretary, MIGEPROF, Rwanda, Closing remarks"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-07",
+      "day": "2026-11-26",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3007",
+      "timeLabel": null,
+      "room": "MH3",
+      "title": "Influencing the Change: Youth Leadership in Africa",
+      "kind": "TED talk · YAC",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Ms. Petrider Paul",
+          "role": "Moderator"
+        },
+        {
+          "name": "Afize Abdoul Ouedraogo",
+          "role": "Moderator"
+        },
+        {
+          "name": "Mr. Yann Gwet",
+          "role": "ED, YouthConnekt Africa Hub, Opening remarks"
+        },
+        {
+          "name": "Hon. Gashumba Vanessa",
+          "role": "Youth Representative, Parliament of the Republic of Rwanda, Keynote"
+        },
+        {
+          "name": "Ms. Wilaiza Afonso Wilson",
+          "role": "Youth Robotics Developer ,  African Girls Can Code"
+        },
+        {
+          "name": "Mr. Pempho Chabvuta",
+          "role": "Youth Engagement Lead, Women, Gender and Youth Directorate, African Union Commission"
+        },
+        {
+          "name": "Ms. Diane Tuyishime",
+          "role": "Youth Climate Leader, International commission on Peace and Equity (ICEP)"
+        },
+        {
+          "name": "Mr. Lawrence Muli",
+          "role": "Lead Expert  AU -EU Youth Lab"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-08",
+      "day": "2026-11-26",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3008",
+      "timeLabel": null,
+      "room": "AD12",
+      "title": "Green Opportunity Lab: Bassin du Congo",
+      "kind": "Workshop · YC Bassin du Congo",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Mr. Ezechiel Ouedraogo",
+          "role": "Moderator"
+        },
+        {
+          "name": "Hon. Prince Michrist Kaba Mboko",
+          "role": "Minister in charge of Youth, Republic of Congo"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-09",
+      "day": "2026-11-26",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3009",
+      "timeLabel": null,
+      "room": "AD10",
+      "title": "Young Africans Shaping Safe and Inclusive Digital Futures",
+      "kind": "Workshop · AUC, UN Women",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-lunch",
+      "day": "2026-11-26",
+      "start": "13:00",
+      "end": "14:00",
+      "sort": "13:00ch",
+      "timeLabel": null,
+      "room": "",
+      "title": "Lunch",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-10",
+      "day": "2026-11-26",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:3010",
+      "timeLabel": null,
+      "room": "Auditorium",
+      "title": "Reimagining African Creativity",
+      "kind": "Generational debate",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Lynn Obwoge",
+          "role": "Moderator"
+        },
+        {
+          "name": "Mr. Kennedy Odhiambo (Crazy Kennar)",
+          "role": "Content Creator"
+        },
+        {
+          "name": "Joan Mazimhaka",
+          "role": "Illume Studios"
+        },
+        {
+          "name": "Doctall Kingsley",
+          "role": ""
+        },
+        {
+          "name": "Moctar PMF",
+          "role": ""
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-11",
+      "day": "2026-11-26",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:3011",
+      "timeLabel": null,
+      "room": "MH1",
+      "title": "YouthConnektXRegions",
+      "kind": "Learning spotlight · YC Mano River Union & Sahel Regional Forum",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Nassira Soumeila",
+          "role": "Moderator"
+        },
+        {
+          "name": "Hon. Abdoul Kassim Fomba",
+          "role": "Minister of Youth, Mali"
+        },
+        {
+          "name": "Hon. Jabou Sissawo  Speaker of the National Youth Parliament",
+          "role": "the Gambia"
+        },
+        {
+          "name": "Hon. Ibrahim Sannoh",
+          "role": "Minister of Youth, Sierra Leone"
+        },
+        {
+          "name": "Frederick Ampiah",
+          "role": "UNDP Resident Representative"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-12",
+      "day": "2026-11-26",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:3012",
+      "timeLabel": null,
+      "room": "MH2",
+      "title": "Making Finance Work for Rural Youth Enterprises",
+      "kind": "Learning spotlight & youth fireside · CRS",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Ms. Maina Mary",
+          "role": "Partnerships & Strategic Initiatives Manager, CRS, Moderator"
+        },
+        {
+          "name": "Maimouna Cissé",
+          "role": "Founder, Global Eyers"
+        },
+        {
+          "name": "Kabale Godana",
+          "role": "Electrical entrepreneur, Wezesha Business Mentor, part-time TVET trainer"
+        },
+        {
+          "name": "Gifty Afetsevi",
+          "role": "Founder, Dosua Entreprise"
+        },
+        {
+          "name": "Shimirwa Palemon",
+          "role": "Carpentry entrepreneur"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-13",
+      "day": "2026-11-26",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:3013",
+      "timeLabel": null,
+      "room": "MH3",
+      "title": "ACET Youth Policy Lab",
+      "kind": "Policy lab · ACET",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Deborah Delasi Akoto Tamakloe",
+          "role": "Research Analyst, YES/PACT, ACET, Co-moderator"
+        },
+        {
+          "name": "Denzel Dewynne Darkwah",
+          "role": "Program Officer, YES Team, ACET, Co-moderator"
+        },
+        {
+          "name": "Hon. Alfred Gangata",
+          "role": "Minister Youth, Sports, Arts and Culture Malawi, Keynote"
+        },
+        {
+          "name": "Mona Iddrisu",
+          "role": "Head of Youth Employment and Skills, ACET"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-14",
+      "day": "2026-11-26",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:3014",
+      "timeLabel": null,
+      "room": "AD12",
+      "title": "Policy Roundtable on Inclusive Trade",
+      "kind": "Roundtable · YCA Hub, UNDP",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Nozipho Hlophe",
+          "role": "Regional Trade Analyst, UNDP, Moderator"
+        },
+        {
+          "name": "Mr. Oswell T. Kahonde",
+          "role": "Head – Africa Region, Better Than Cash Alliance"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d2-zones",
+      "day": "2026-11-26",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:30es",
+      "timeLabel": null,
+      "room": "",
+      "title": "Health Corner · Connekting Zone · AUC Egumeni Hub (AD10)",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d2-talent",
+      "day": "2026-11-26",
+      "start": "17:30",
+      "end": "19:30",
+      "sort": "17:30nt",
+      "timeLabel": null,
+      "room": "",
+      "title": "Youth Talent Night · Auditorium",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-arrival",
+      "day": "2026-11-27",
+      "start": "08:30",
+      "end": "09:30",
+      "sort": "08:30al",
+      "timeLabel": null,
+      "room": "",
+      "title": "Arrival of delegates · Networking & DJ",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-01",
+      "day": "2026-11-27",
+      "start": "08:30",
+      "end": "10:00",
+      "sort": "08:3001",
+      "timeLabel": null,
+      "room": "AD10",
+      "title": "Secondary Education in Africa (SEA) Report Launch",
+      "kind": "High-level breakfast · Mastercard Foundation · By invitation",
+      "closed": true,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-02",
+      "day": "2026-11-27",
+      "start": "09:30",
+      "end": "11:00",
+      "sort": "09:3002",
+      "timeLabel": null,
+      "room": "Auditorium",
+      "title": "Legacy vs NextGen: the Future of Sports Economy",
+      "kind": "Generational debate · YCA Hub, MINISPORTS",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Ms. Paula Kami",
+          "role": "Event Manager, MINISPORTS, Moderator"
+        },
+        {
+          "name": "Teta Ndejeru",
+          "role": "BAL Country Director, NBA Africa"
+        },
+        {
+          "name": "Hon. Nelly Mukazayire",
+          "role": "Minister of Sports, Rwanda"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-03",
+      "day": "2026-11-27",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3003",
+      "timeLabel": null,
+      "room": "Auditorium",
+      "title": "Trajectories of Dignified Employment",
+      "kind": "High-level session · Mastercard Foundation",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Hon. George Opare Addo",
+          "role": "Minister for Youth Development and Empowerment of Ghana, Keynote"
+        },
+        {
+          "name": "Ms. Allen Kendunga",
+          "role": "CEO, Talent Match"
+        },
+        {
+          "name": "Ms. Adaeze Menekpugi",
+          "role": "Co-Founder, Omwugo"
+        },
+        {
+          "name": "Mr. Ivan Ntwali",
+          "role": "Country Director, Mastercard Foundation"
+        },
+        {
+          "name": "Ms. Aileen Allkins",
+          "role": "CEO, Teknowledge"
+        },
+        {
+          "name": "Mrs. Dora Kondo",
+          "role": "Representative, RwandAir"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-04",
+      "day": "2026-11-27",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3004",
+      "timeLabel": null,
+      "room": "MH1",
+      "title": "YouthConnekt Southern Africa: Pitch Your Country",
+      "kind": "Generational debate · YouthConnekt Zambia, UNDP ECoWYERT",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Ms. Mable Beene Nedziwe",
+          "role": "Director Youth, Ministry of Youth and Sport, Zambia, Moderator"
+        },
+        {
+          "name": "Hope Mukwinda",
+          "role": "Youth, Co-moderator"
+        },
+        {
+          "name": "Hon. Likando Mufalali",
+          "role": "Minister of Youth and Sport, Zambia, Keynote"
+        },
+        {
+          "name": "Ms. Ethel Bangwayo",
+          "role": "Regional Project Manager, ECoWYERT"
+        },
+        {
+          "name": "Ms. Natasha Rampa",
+          "role": "Permanent Secretary, Ministry of Youth and Gender Affairs, Botswana"
+        },
+        {
+          "name": "Professor Shabangu",
+          "role": "Programmes Officer, Eswatini National Youth Council"
+        },
+        {
+          "name": "Judith Msusa",
+          "role": "Director of Youth, Ministry of Youth, Sports and Culture, Malawi"
+        },
+        {
+          "name": "Mr. Emmanuel Kganakga",
+          "role": "Director, Youth Legislation and Policy, DWYPD, South Africa"
+        },
+        {
+          "name": "Mr. Kangwa Chileshe",
+          "role": "Permanent Secretary, Ministry of Youth, Sport and Arts, Zambia"
+        },
+        {
+          "name": "Mr Lwazi Mamba",
+          "role": "Chief Executive Officer, National Eswatini YouthCouncil"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-05",
+      "day": "2026-11-27",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3005",
+      "timeLabel": null,
+      "room": "MH2",
+      "title": "The Next Tech Africa Giants",
+      "kind": "TED talk & interactive panel · Smart Africa",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Ms. Cindy Issola Gamassa",
+          "role": "Bisso Agency, Moderator"
+        },
+        {
+          "name": "Ms. Goitseone Carol Matsididi",
+          "role": "CEO, Elayna Zahra Research Lab"
+        },
+        {
+          "name": "Vivens Uwiyezemana",
+          "role": ""
+        },
+        {
+          "name": "Mr. Lacina Koné",
+          "role": "CEO, Smart Africa"
+        },
+        {
+          "name": "Mr. Monzer Ali",
+          "role": "CEO, MTN Rwanda"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-06",
+      "day": "2026-11-27",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3006",
+      "timeLabel": null,
+      "room": "MH3",
+      "title": "Africa's Creative Wealth: Creatives4Peace",
+      "kind": "TED talk · UNDP",
+      "closed": false,
+      "speakers": [
+        {
+          "name": "Mc.Emmanuel Ikubese",
+          "role": "MC"
+        },
+        {
+          "name": "Aminata Badjie",
+          "role": "Moderator"
+        },
+        {
+          "name": "Dr. Matthias Naab",
+          "role": "Director, UNDP Regional Service Centre, Keynote"
+        },
+        {
+          "name": "Joshua Bisureka",
+          "role": "Finalist, UNDP Rwanda"
+        },
+        {
+          "name": "Elizabeth Katumb",
+          "role": "Kantu Styles"
+        },
+        {
+          "name": "Kur Peter Thon Aduot",
+          "role": "SG, UNDP African Youth Co-creators Council (South Sudan)"
+        },
+        {
+          "name": "Andisa Ndlovu",
+          "role": "Country Consultant, ITU"
+        },
+        {
+          "name": "Gift Godfrey Khamis Moju",
+          "role": "CEO, Shem Africa"
+        },
+        {
+          "name": "Oudy Keita",
+          "role": "Designer, artist and peacebuilder (Mali)"
+        }
+      ],
+      "transcript": false
+    },
+    {
+      "id": "d3-07",
+      "day": "2026-11-27",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:3007",
+      "timeLabel": null,
+      "room": "AD12",
+      "title": "YouthConnekt Mano River Union Steering Committee Meeting",
+      "kind": "Boardroom · By invitation",
+      "closed": true,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-zones",
+      "day": "2026-11-27",
+      "start": "11:30",
+      "end": "13:00",
+      "sort": "11:30es",
+      "timeLabel": null,
+      "room": "",
+      "title": "Health Corner · Connekting Zone · AUC Egumeni Hub (AD10)",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-lunch",
+      "day": "2026-11-27",
+      "start": "13:00",
+      "end": "14:00",
+      "sort": "13:00ch",
+      "timeLabel": null,
+      "room": "",
+      "title": "Lunch",
+      "kind": "",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    },
+    {
+      "id": "d3-08",
+      "day": "2026-11-27",
+      "start": "14:30",
+      "end": "16:00",
+      "sort": "14:3008",
+      "timeLabel": null,
+      "room": "Auditorium",
+      "title": "Official Closing Ceremony",
+      "kind": "Plenary",
+      "closed": false,
+      "speakers": [],
+      "transcript": false
+    }
+  ]
+}
