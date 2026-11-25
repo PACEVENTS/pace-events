@@ -58,7 +58,7 @@
           "role": "Director, UNDP Regional Service Centre for Africa"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d1-02",
@@ -93,7 +93,7 @@
           "role": "Youth speaker"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d1-launch",
