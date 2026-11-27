@@ -363,7 +363,7 @@
           "role": "Minister of Youth and Sports, Keynote"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d2-03",
@@ -640,7 +640,7 @@
           "role": ""
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d2-11",
@@ -741,7 +741,7 @@
           "role": "Head of Youth Employment and Skills, ACET"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d2-14",
