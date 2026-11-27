@@ -10,7 +10,8 @@ from pathlib import Path
 ev, sid, mp = sys.argv[1:4]  # a turn code of "?" marks speech whose speaker is not identified (left open)
 f = Path('data') / ev / 'transcripts' / f'{sid}.json'
 tr = json.loads(f.read_text()); M = json.loads(Path(mp).read_text()); N = dict(M['names'], **{'?': ''})
-segs = tr['parts'][0]['segments']
+flat = [(pi, x) for pi, part in enumerate(tr['parts']) for x in part['segments']]  # paragraph numbers run across all parts
+segs = [x for _, x in flat]
 orig = [s['text'] for s in segs]
 cuts = {}
 for p, at, who in M['turns']: cuts.setdefault(p, []).append((at, N[who]))
@@ -25,9 +26,10 @@ for i, s in enumerate(segs):
         text, cur = text[k:], who
     pieces.append((cur, text.strip()))
     for j, (who, t) in enumerate(pieces):
-        out.append({'time': s['time'] if j == 0 else '', 'speaker': who, 'text': t})
-assert ' '.join(' '.join(o.split()) for o in orig) == ' '.join(o['text'] for o in out), 'text changed'
-tr['parts'][0]['segments'] = out
+        out.append((flat[i][0], {'time': s['time'] if j == 0 else '', 'speaker': who, 'text': t}))
+assert ' '.join(' '.join(o.split()) for o in orig) == ' '.join(o['text'] for _, o in out), 'text changed'
+for pi, part in enumerate(tr['parts']): part['segments'] = [o for q, o in out if q == pi]
+out = [o for _, o in out]
 tr['speakerNote'] = M.get('note', "Speaker names were added by Pace Production from the moderator's introductions and may not be exact.")
 f.write_text(json.dumps(tr, ensure_ascii=False, separators=(',', ':')))
 from collections import Counter
