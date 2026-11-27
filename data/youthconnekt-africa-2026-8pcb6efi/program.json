@@ -886,7 +886,7 @@
           "role": "Representative, RwandAir"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d3-04",
@@ -1027,7 +1027,7 @@
           "role": "Designer, artist and peacebuilder (Mali)"
         }
       ],
-      "transcript": false
+      "transcript": true
     },
     {
       "id": "d3-07",
