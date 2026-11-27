@@ -1,0 +1,266 @@
+{
+ "names": {
+  "H": "Session hosts · Claire Muneza (FAO) and Jessy Lafourcade (AFSF)",
+  "PK": "Dr. Patrick Karangwa · DG Agriculture Modernization, MINAGRI",
+  "FAO": "FAO Representative in Rwanda",
+  "SS": "Undersecretary for Youth, South Sudan",
+  "SA": "Sandra · youth entrepreneur",
+  "JP": "Jean-Pierre · Smart Farm Solutions",
+  "CL": "Claudine Kamanzi · Forest for Life",
+  "IS": "Smart Israel · youth entrepreneur",
+  "DA": "Danny Akizimana · AgriMark Ltd",
+  "YV": "Yvette · youth entrepreneur",
+  "FE": "Festo · Gemura Solutions",
+  "OL": "Olivia · Econacy",
+  "JO": "Josiane · Amazing Insects",
+  "WFP": "WFP Representative in Rwanda",
+  "LE": "Uwinkesha Lenarda · Panel moderator",
+  "MD": "Dr. Momar Dieng · Vice Chancellor, RICA",
+  "PS": "Amath Pathé Sene · Managing Director, AFSF",
+  "EQ": "Equity Bank representative",
+  "BRB": "BRD representative",
+  "AFR": "Access to Finance Rwanda representative"
+ },
+ "turns": [
+  [
+   21,
+   "",
+   "H"
+  ],
+  [
+   23,
+   "Thank you. Honourable Ministers",
+   "PK"
+  ],
+  [
+   43,
+   "",
+   "H"
+  ],
+  [
+   45,
+   "",
+   "FAO"
+  ],
+  [
+   55,
+   "Thank you very much Mr",
+   "H"
+  ],
+  [
+   57,
+   "Excellencies, Honorable Ministers, Representatives",
+   "SS"
+  ],
+  [
+   75,
+   "Thank you very much, Honorable Dr.",
+   "H"
+  ],
+  [
+   85,
+   "",
+   "?"
+  ],
+  [
+   86,
+   "",
+   "SA"
+  ],
+  [
+   93,
+   "",
+   "H"
+  ],
+  [
+   95,
+   "",
+   "JP"
+  ],
+  [
+   107,
+   "",
+   "H"
+  ],
+  [
+   108,
+   "",
+   "CL"
+  ],
+  [
+   116,
+   "",
+   "H"
+  ],
+  [
+   117,
+   "Distinguished guests",
+   "IS"
+  ],
+  [
+   133,
+   "Thank you very much, Israel.",
+   "H"
+  ],
+  [
+   144,
+   "Hello everyone.",
+   "DA"
+  ],
+  [
+   150,
+   "Thank you so much, Danny.",
+   "H"
+  ],
+  [
+   152,
+   "",
+   "DA"
+  ],
+  [
+   154,
+   "",
+   "H"
+  ],
+  [
+   155,
+   "What happens when a young farmer",
+   "YV"
+  ],
+  [
+   165,
+   "",
+   "H"
+  ],
+  [
+   167,
+   "Good morning, everyone.",
+   "FE"
+  ],
+  [
+   178,
+   "",
+   "H"
+  ],
+  [
+   180,
+   "",
+   "?"
+  ],
+  [
+   184,
+   "",
+   "H"
+  ],
+  [
+   185,
+   "Good afternoon, everyone.",
+   "OL"
+  ],
+  [
+   191,
+   "Thank you so much, Olivia.",
+   "H"
+  ],
+  [
+   194,
+   "",
+   "JO"
+  ],
+  [
+   201,
+   "Thank you so much, Josiane.",
+   "H"
+  ],
+  [
+   204,
+   "",
+   "WFP"
+  ],
+  [
+   213,
+   "",
+   "H"
+  ],
+  [
+   215,
+   "",
+   "LE"
+  ],
+  [
+   225,
+   "",
+   "MD"
+  ],
+  [
+   237,
+   "",
+   "LE"
+  ],
+  [
+   238,
+   "",
+   "PS"
+  ],
+  [
+   252,
+   "",
+   "LE"
+  ],
+  [
+   254,
+   "",
+   "EQ"
+  ],
+  [
+   269,
+   "",
+   "LE"
+  ],
+  [
+   272,
+   "",
+   "BRB"
+  ],
+  [
+   281,
+   "",
+   "LE"
+  ],
+  [
+   282,
+   "",
+   "BRB"
+  ],
+  [
+   283,
+   "",
+   "LE"
+  ],
+  [
+   285,
+   "",
+   "AFR"
+  ],
+  [
+   291,
+   "",
+   "LE"
+  ],
+  [
+   292,
+   "",
+   "?"
+  ],
+  [
+   304,
+   "",
+   "LE"
+  ],
+  [
+   305,
+   "",
+   "H"
+  ]
+ ]
+}

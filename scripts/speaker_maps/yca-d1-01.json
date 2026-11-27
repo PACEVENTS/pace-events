@@ -1,0 +1,39 @@
+{
+ "names": {
+  "MC": "MC",
+  "N": "Dr. Matthias Naab · Director, UNDP Regional Service Centre for Africa",
+  "K": "H.E. Paul Kagame · President of Rwanda"
+ },
+ "turns": [
+  [
+   1,
+   "",
+   "MC"
+  ],
+  [
+   3,
+   "",
+   "N"
+  ],
+  [
+   20,
+   "",
+   "MC"
+  ],
+  [
+   21,
+   "",
+   "K"
+  ],
+  [
+   30,
+   "",
+   "MC"
+  ],
+  [
+   31,
+   "",
+   "?"
+  ]
+ ]
+}

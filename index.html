@@ -113,6 +113,7 @@ h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;color:va
 .seg:last-child{border-bottom:0}
 .seg .ts{font-size:12px;color:var(--grey-light);font-variant-numeric:tabular-nums;padding-top:3px}
 .seg .who{font-size:12px;font-weight:600;color:var(--black);letter-spacing:.3px;margin-bottom:3px}
+.seg .who.unk{color:var(--grey-light);font-weight:500;font-style:italic}
 .spk-note{font-size:12px;color:var(--grey);font-style:italic;padding:12px 0 4px}
 .seg p{margin:0;color:var(--charcoal);font-size:15.5px;line-height:1.7}
 .transcript.nots .seg{grid-template-columns:1fr}
@@ -347,7 +348,8 @@ footer a{color:var(--grey);text-decoration:none}
         let prev = null;
         html += segs.map(g=>{
           let t = esc(g.text); if (rx) t = t.replace(rx, m=>`<mark>${m}</mark>`);
-          const who = (g.speaker && (g.speaker!==prev || q)) ? `<div class="who">${esc(g.speaker)}</div>` : '';
+          const nm = g.speaker || ((tr.speakerNote && prev) ? 'Speaker not identified' : '');
+          const who = (nm && (g.speaker!==prev || q)) ? `<div class="who${g.speaker?'':' unk'}">${esc(nm)}</div>` : '';
           prev = g.speaker;
           return `<div class="seg"><div class="ts">${esc(g.time||'')}</div><div>${who}<p>${t}</p></div></div>`;
         }).join('');

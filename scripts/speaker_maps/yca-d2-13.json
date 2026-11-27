@@ -1,0 +1,86 @@
+{
+ "names": {
+  "MI": "Mona Iddrisu · Head of Youth Employment and Skills, ACET",
+  "AG": "Hon. Alfred Gangata · Minister of Youth, Sports, Arts and Culture, Malawi",
+  "G1": "Molefe · Lesotho (group 1)",
+  "G2": "Seleke · Liberia (group 2)",
+  "G3": "Joy · Namibia (group 3)"
+ },
+ "turns": [
+  [
+   0,
+   "",
+   "MI"
+  ],
+  [
+   14,
+   "",
+   "AG"
+  ],
+  [
+   35,
+   "Another round of applause, please.",
+   "MI"
+  ],
+  [
+   73,
+   "",
+   "?"
+  ],
+  [
+   120,
+   "",
+   "MI"
+  ],
+  [
+   124,
+   "",
+   "G1"
+  ],
+  [
+   133,
+   "",
+   "MI"
+  ],
+  [
+   135,
+   "",
+   "G2"
+  ],
+  [
+   148,
+   "",
+   "MI"
+  ],
+  [
+   150,
+   "",
+   "G3"
+  ],
+  [
+   165,
+   "",
+   "MI"
+  ],
+  [
+   166,
+   "",
+   "?"
+  ],
+  [
+   180,
+   "",
+   "MI"
+  ],
+  [
+   183,
+   "",
+   "?"
+  ],
+  [
+   195,
+   "",
+   "MI"
+  ]
+ ]
+}

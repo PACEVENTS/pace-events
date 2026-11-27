@@ -1,0 +1,130 @@
+{
+ "names": {
+  "NE": "Nelly · MC",
+  "G": "Minister of Youth, Sports and Culture, Gabon",
+  "AF": "Afreximbank President (video message)",
+  "L": "Lynn Obwoge · Moderator",
+  "J": "Joan Mazimhaka · Illume Studios",
+  "DK": "Doctall Kingsley",
+  "CK": "Kennedy Odhiambo (Crazy Kennar) · Content Creator",
+  "M": "Moctar PMF",
+  "PS": "Fikirini Jacobs · PS, Youth Affairs and Creative Economy, Kenya"
+ },
+ "turns": [
+  [
+   0,
+   "",
+   "NE"
+  ],
+  [
+   12,
+   "Is the African youth here?",
+   "G"
+  ],
+  [
+   30,
+   "Another round of applause",
+   "NE"
+  ],
+  [
+   34,
+   "",
+   "AF"
+  ],
+  [
+   54,
+   "",
+   "NE"
+  ],
+  [
+   57,
+   "",
+   "L"
+  ],
+  [
+   71,
+   "Good afternoon, everybody.",
+   "J"
+  ],
+  [
+   80,
+   "",
+   "L"
+  ],
+  [
+   84,
+   "My name is Dr. Kingsley",
+   "DK"
+  ],
+  [
+   92,
+   "",
+   "L"
+  ],
+  [
+   93,
+   "Good evening, everyone. My name is Crazy Kenna.",
+   "CK"
+  ],
+  [
+   103,
+   "Thank you so much for that.",
+   "L"
+  ],
+  [
+   105,
+   "",
+   "M"
+  ],
+  [
+   109,
+   "",
+   "L"
+  ],
+  [
+   111,
+   "",
+   "?"
+  ],
+  [
+   118,
+   "",
+   "L"
+  ],
+  [
+   120,
+   "",
+   "PS"
+  ],
+  [
+   127,
+   "",
+   "L"
+  ],
+  [
+   130,
+   "",
+   "?"
+  ],
+  [
+   140,
+   "",
+   "L"
+  ],
+  [
+   142,
+   "",
+   "J"
+  ],
+  [
+   151,
+   "Absolutely amazing.",
+   "L"
+  ],
+  [
+   153,
+   "",
+   "?"
+  ]
+ ]
+}

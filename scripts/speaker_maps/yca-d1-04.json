@@ -1,0 +1,103 @@
+{
+ "names": {
+  "R": "Raymond Okpani · Moderator",
+  "B": "Bruce Sakindi · Leadership and Education",
+  "C": "Chioma Okonkwo · Entrepreneurship",
+  "F": "Fatoumata Dia",
+  "E": "Ebube Oguejiofor · Tech and Innovation",
+  "RA": "Rachel · Zambia (audience)",
+  "N": "Nesta Paul Katende"
+ },
+ "turns": [
+  [
+   0,
+   "",
+   "R"
+  ],
+  [
+   7,
+   "",
+   "?"
+  ],
+  [
+   15,
+   "",
+   "R"
+  ],
+  [
+   19,
+   "Hello. How are we doing",
+   "B"
+  ],
+  [
+   46,
+   "",
+   "?"
+  ],
+  [
+   107,
+   "",
+   "R"
+  ],
+  [
+   135,
+   "",
+   "?"
+  ],
+  [
+   169,
+   "",
+   "R"
+  ],
+  [
+   172,
+   "Hello, everyone.",
+   "C"
+  ],
+  [
+   212,
+   "",
+   "R"
+  ],
+  [
+   232,
+   "Hello.",
+   "F"
+  ],
+  [
+   243,
+   "",
+   "?"
+  ],
+  [
+   291,
+   "",
+   "R"
+  ],
+  [
+   298,
+   "",
+   "E"
+  ],
+  [
+   325,
+   "",
+   "RA"
+  ],
+  [
+   328,
+   "Raymond, permit me.",
+   "E"
+  ],
+  [
+   334,
+   "",
+   "R"
+  ],
+  [
+   339,
+   "Thank you. Thank you so much.",
+   "N"
+  ]
+ ]
+}

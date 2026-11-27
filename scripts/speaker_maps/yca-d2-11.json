@@ -1,0 +1,139 @@
+{
+ "names": {
+  "MO": "Nassira Soumeila · Moderator",
+  "SL": "Hon. Ibrahim Sannoh · Minister of Youth, Sierra Leone",
+  "ML": "Hon. Abdoul Kassim Fomba · Minister of Youth, Mali",
+  "CH": "Minister of Youth, Chad",
+  "FA": "Frederick Ampiah · UNDP",
+  "SN": "Director General of Youth, Senegal",
+  "SI": "Soury Ibrahim Sissé · Mali (youth)",
+  "MT": "Memuna · Sierra Leone (youth)"
+ },
+ "turns": [
+  [
+   0,
+   "",
+   "MO"
+  ],
+  [
+   6,
+   "",
+   "SL"
+  ],
+  [
+   42,
+   "A round of applause, please, for His Excellency",
+   "MO"
+  ],
+  [
+   47,
+   "",
+   "ML"
+  ],
+  [
+   67,
+   "",
+   "MO"
+  ],
+  [
+   67,
+   "With the microphone",
+   "ML"
+  ],
+  [
+   73,
+   "",
+   "MO"
+  ],
+  [
+   76,
+   "",
+   "CH"
+  ],
+  [
+   87,
+   "",
+   "MO"
+  ],
+  [
+   88,
+   "",
+   "FA"
+  ],
+  [
+   120,
+   "Applause",
+   "MO"
+  ],
+  [
+   122,
+   "",
+   "SN"
+  ],
+  [
+   142,
+   "Thank you very much, Mr. Director",
+   "MO"
+  ],
+  [
+   144,
+   "",
+   "SI"
+  ],
+  [
+   153,
+   "Thank you very much, Mr. Sori Ibrahim.",
+   "MO"
+  ],
+  [
+   154,
+   "",
+   "SI"
+  ],
+  [
+   155,
+   "Thank you very much, Mr. Sori.",
+   "MO"
+  ],
+  [
+   157,
+   "Hello, everyone.",
+   "MT"
+  ],
+  [
+   170,
+   "",
+   "MO"
+  ],
+  [
+   171,
+   "",
+   "SL"
+  ],
+  [
+   195,
+   "Thank you very much His Excellencies",
+   "MO"
+  ],
+  [
+   197,
+   "",
+   "?"
+  ],
+  [
+   302,
+   "",
+   "MO"
+  ],
+  [
+   304,
+   "",
+   "ML"
+  ],
+  [
+   314,
+   "",
+   "?"
+  ]
+ ]
+}

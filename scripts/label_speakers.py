@@ -7,9 +7,9 @@ Every later paragraph keeps the current speaker until the next turn. Sets speake
 shows that names were added by Pace. Usage: label_speakers.py <event> <session> <map.json>"""
 import json, sys
 from pathlib import Path
-ev, sid, mp = sys.argv[1:4]
+ev, sid, mp = sys.argv[1:4]  # a turn code of "?" marks speech whose speaker is not identified (left open)
 f = Path('data') / ev / 'transcripts' / f'{sid}.json'
-tr = json.loads(f.read_text()); M = json.loads(Path(mp).read_text()); N = M['names']
+tr = json.loads(f.read_text()); M = json.loads(Path(mp).read_text()); N = dict(M['names'], **{'?': ''})
 segs = tr['parts'][0]['segments']
 orig = [s['text'] for s in segs]
 cuts = {}

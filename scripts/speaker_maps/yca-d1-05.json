@@ -1,0 +1,87 @@
+{
+ "names": {
+  "S": "Serge Sewa · Moderator",
+  "L": "Hon. Dr. Lakisa Mercy Faith · Minister of State for Youth and Children Affairs, Uganda",
+  "H": "Hanna Kumara · UNFPA youth working group, Ethiopia",
+  "AL": "Alida · Clinton Health Access Initiative, Rwanda",
+  "Y": "Yakubu · End Stigma Ghana",
+  "LK": "Ms. Linda Kalenga · Ag. Deputy Representative, UNFPA Rwanda"
+ },
+ "turns": [
+  [
+   0,
+   "",
+   "S"
+  ],
+  [
+   8,
+   "",
+   "L"
+  ],
+  [
+   18,
+   "",
+   "S"
+  ],
+  [
+   25,
+   "",
+   "H"
+  ],
+  [
+   39,
+   "",
+   "?"
+  ],
+  [
+   41,
+   "",
+   "S"
+  ],
+  [
+   43,
+   "Let me speak in English.",
+   "AL"
+  ],
+  [
+   60,
+   "I'd like to ask about",
+   "S"
+  ],
+  [
+   62,
+   "I think one thing we need to do in this room",
+   "Y"
+  ],
+  [
+   76,
+   "Thank you very much, Yacoubou.",
+   "S"
+  ],
+  [
+   78,
+   "",
+   "?"
+  ],
+  [
+   85,
+   "",
+   "S"
+  ],
+  [
+   86,
+   "",
+   "?"
+  ],
+  [
+   180,
+   "",
+   "S"
+  ],
+  [
+   181,
+   "Hello?",
+   "LK"
+  ]
+ ]
+}

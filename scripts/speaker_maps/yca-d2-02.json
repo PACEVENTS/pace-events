@@ -1,0 +1,147 @@
+{
+ "names": {
+  "D": "Diane Ineza · Host, UNDP Rwanda",
+  "N": "Dr. Matthias Naab · Director, UNDP Regional Service Centre for Africa",
+  "R": "Rachel · Green Roots Innovation, Zambia",
+  "J": "Jean-Luc · Kigali",
+  "T": "Tafara Makaza · Co-Founder, Fixa",
+  "PM": "H.E. Samuel Matekane · Prime Minister of Lesotho"
+ },
+ "turns": [
+  [
+   0,
+   "",
+   "D"
+  ],
+  [
+   1,
+   "",
+   "?"
+  ],
+  [
+   27,
+   "",
+   "D"
+  ],
+  [
+   28,
+   "",
+   "?"
+  ],
+  [
+   46,
+   "Now to take us",
+   "D"
+  ],
+  [
+   47,
+   "",
+   "N"
+  ],
+  [
+   59,
+   "Thank you very much, Dr. Naab",
+   "D"
+  ],
+  [
+   62,
+   "",
+   "R"
+  ],
+  [
+   70,
+   "Your excellencies",
+   "J"
+  ],
+  [
+   79,
+   "Hello, YouthConnekt.",
+   "T"
+  ],
+  [
+   89,
+   "",
+   "D"
+  ],
+  [
+   91,
+   "",
+   "N"
+  ],
+  [
+   96,
+   "One of the barriers",
+   "R"
+  ],
+  [
+   102,
+   "",
+   "N"
+  ],
+  [
+   104,
+   "",
+   "T"
+  ],
+  [
+   111,
+   "Fantastic. Can we give a round",
+   "N"
+  ],
+  [
+   114,
+   "Thank you very much, Honorable Director.",
+   "J"
+  ],
+  [
+   119,
+   "Thank you very much. Can we",
+   "N"
+  ],
+  [
+   124,
+   "",
+   "PM"
+  ],
+  [
+   133,
+   "",
+   "N"
+  ],
+  [
+   135,
+   "",
+   "?"
+  ],
+  [
+   141,
+   "Thank you very much, Jean-Luc.",
+   "N"
+  ],
+  [
+   143,
+   "",
+   "T"
+  ],
+  [
+   144,
+   "",
+   "N"
+  ],
+  [
+   145,
+   "",
+   "R"
+  ],
+  [
+   147,
+   "",
+   "N"
+  ],
+  [
+   151,
+   "",
+   "?"
+  ]
+ ]
+}

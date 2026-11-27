@@ -1,0 +1,91 @@
+{
+ "names": {
+  "G": "Hon. Francis Gatare · President, African School of Governance",
+  "S": "Sharon Fru · Moderator",
+  "A": "H.E. Danila Patrícia de Almeida Bragança · Secretary of State for Youth, Angola",
+  "P": "Prosper Sangidi · Lead student, ASG",
+  "SE": "Safanie Emmanuel · Cameroon (audience)"
+ },
+ "turns": [
+  [
+   0,
+   "",
+   "G"
+  ],
+  [
+   55,
+   "Thank you so much.",
+   "S"
+  ],
+  [
+   60,
+   "",
+   "A"
+  ],
+  [
+   95,
+   "",
+   "S"
+  ],
+  [
+   100,
+   "",
+   "?"
+  ],
+  [
+   118,
+   "",
+   "S"
+  ],
+  [
+   120,
+   "",
+   "?"
+  ],
+  [
+   135,
+   "",
+   "S"
+  ],
+  [
+   135,
+   "Greetings, everyone.",
+   "P"
+  ],
+  [
+   141,
+   "",
+   "S"
+  ],
+  [
+   142,
+   "",
+   "P"
+  ],
+  [
+   142,
+   "Thank you so much and I think",
+   "S"
+  ],
+  [
+   144,
+   "",
+   "G"
+  ],
+  [
+   156,
+   "",
+   "S"
+  ],
+  [
+   162,
+   "Hello everyone.",
+   "SE"
+  ],
+  [
+   164,
+   "",
+   "?"
+  ]
+ ]
+}
